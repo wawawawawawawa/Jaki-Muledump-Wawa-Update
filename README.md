@@ -1,8 +1,11 @@
-This is a fork from Jaki MD, so I put his README below.
+This is a fork from ![Jaki MD](https://github.com/jakcodex), so I have put his README below.
 
 The tweaks look like this :
 
+Wawa Option Update:
 ![Wawa Option Update](https://i.imgur.com/luVlc1c.png)
+
+Other Updates (pets, account dungeon complete, account pots to max, etc.)
 ![New Account Function and Pets](https://i.imgur.com/vlnnus9.png)
 
 ![Jakcodex/Muledump](https://img.shields.io/badge/jakcodex-muledump-blue.svg?style=flat-square)
