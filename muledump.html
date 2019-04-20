@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta http-equiv="content-type" content="text/html; charset=utf-8">
+	<meta name="description" content="A complete management system for all your ROTMG mules">
+	<title>Muledump</title>
+	<script type="application/javascript" src="vendor/jtimer.js"></script>
+	<script type="application/javascript" src="lib/muledump/timing.js"></script>
+	<link type="text/css" rel="stylesheet" href="lib/muledump/dump.css">
+	<link type="text/css" rel="stylesheet" href="vendor/featherlight.css">
+	<link type="text/css" rel="stylesheet" href="lib/setuptools/css/setuptools.css">
+	<link type="image/png" rel="shortcut icon" href="lib/media/favicon.png">
+	<script type="application/javascript" src="vendor/jquery.min.js"></script>
+	<script type="application/javascript" src="vendor/masonry.pkgd.min.js"></script>
+	<script type="application/javascript" src="vendor/featherlight.min.js" charset="utf-8"></script>
+	<script type="application/javascript" src="vendor/seasalt.min.js"></script>
+	<script type="application/javascript" src="vendor/snappyjs.min.js"></script>
+	<script src="vendor/clipboard.min.js"></script>
+	<script src="vendor/html2canvas.min.js"></script>
+	<script type="application/javascript" src="lib/constants.js"></script>
+	<script type="application/javascript" src="lib/sheets.js"></script>
+	<script type="application/javascript" src="lib/slotmap.js"></script>
+	<script type="application/javascript" src="lib/muledump/portrait.js"></script>
+	<script type="application/javascript" src="lib/muledump/pcstats.js"></script>
+	<script type="application/javascript" src="lib/muledump/export.js"></script>
+	<script type="application/javascript" src="lib/muledump/staticvars.js"></script>
+	<script type="application/javascript" src="lib/muledump/realmapi.js"></script>
+	<script type="application/javascript" src="lib/muledump/options.js"></script>
+	<script type="application/javascript" src="lib/muledump/totals.js"></script>
+	<script type="application/javascript" src="lib/setuptools/src/classes.js"></script>
+	<script type="application/javascript" src="lib/setuptools/src/setuptools.js"></script>
+	<script type="application/javascript" src="accounts.js"></script>
+	<script type="application/javascript" src="lib/setuptools/src/accounts.js"></script>
+	<script type="application/javascript" src="lib/setuptools/src/app.js"></script>
+	<script type="application/javascript" src="lib/setuptools/src/assistants.js"></script>
+	<script type="application/javascript" src="lib/setuptools/src/backups.js"></script>
+	<script type="application/javascript" src="lib/setuptools/src/config.js"></script>
+	<script type="application/javascript" src="lib/setuptools/src/groups.js"></script>
+	<script type="application/javascript" src="lib/setuptools/src/init.js"></script>
+	<script type="application/javascript" src="lib/setuptools/src/lightbox.js"></script>
+	<script type="application/javascript" src="lib/setuptools/src/muledump.js"></script>
+	<script type="application/javascript" src="lib/setuptools/src/totals.js"></script>
+	<script type="application/javascript" src="lib/setuptools/src/chsort.js"></script>
+	<script type="application/javascript" src="lib/setuptools/src/storage.js"></script>
+	<script type="application/javascript" src="lib/setuptools/src/upgrade.js"></script>
+	<script type="application/javascript" src="lib/setuptools/src/mulecrypt.js"></script>
+	<script type="application/javascript" src="lib/setuptools/src/mulequeue.js"></script>
+	<script type="application/javascript" src="lib/muledump/mule.js"></script>
+	<script type="application/javascript" src="lib/muledump/muledump.js"></script>
+	<script type="application/javascript" src="lib/setuptools/src/analytics.js"></script>
+</head>
+<body class="scrollbar">
+	<span id="accopts" style="display: none;" class="menu noselect"></span>
+	<div class="handle"><span id="options" class="menu noselect"></span></div>
+	<div id="fix">
+		<div id="previewnotice"></div>
+		<div id="stickynotice"></div>
+		<div id="topContainer" class="flex-container" style="justify-content: space-between;">
+			<div id="intro" class="flex-container noFlexAutoWidth" style="flex-shrink: 0;">
+				<div class="version ml5 mr5">Jakcodex / Muledump is loading ...</div>
+			</div>
+			<div id="top" class="flex-container noFlexAutoWidth" style="justify-content: flex-end; flex-flow: row nowrap;">
+				<div id="notice" style="display: none;">Notice</div>
+				<div id="pagesearch" class="searchName full">
+					<input type="text" name="searchName" placeholder="Email or Username">
+				</div>
+				<div id="totalsMenu">Totals</div>
+				<div class="handle options"><span>Options</span></div>
+				<div id="setuptools">Setup</div>
+				<div id="mulequeue">Reload</div>
+				<div id="exporter">Export</div>
+				<div id="about">About</div>
+				<div id="help">Help</div>
+				<a href="https://github.com/jakcodex/muledump" target="_blank">Home</a>
+			</div>
+		</div>
+	</div>
+	<div id="main">
+		<div id="totals" class="noselect" style="display: none;"><div class="noTotals">No matching data found for totals.</div></div>
+		<div id="whitebagTracker"></div>
+		<div id="stage"></div>
+		<div id="lightbox"></div>
+	</div>
+	<script type="application/javascript" src="vendor/sodium.sumo.js" async></script>
+</body>
+</html>
