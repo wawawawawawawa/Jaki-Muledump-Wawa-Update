@@ -1,0 +1,1909 @@
+a.setuptools {
+    color: #0094ff !important;
+    text-decoration: none !important;
+    font-weight: bold;
+}
+
+a.red {
+    color: #ff5985 !important;
+    letter-spacing: 1px;
+    text-decoration: none !important;
+}
+
+a.red:hover {
+    letter-spacing: 1px;
+    color: #5aaeff !important;
+    text-decoration: underline !important;
+}
+
+a.setuptools:hover {
+    color: #5aaeff !important;
+}
+
+a.setuptools:not(.save):hover {
+    text-decoration: underline !important;
+}
+
+a.setuptools.save {
+    font-weight: bold;
+}
+
+input[name="checkAll"] {
+    position: relative;
+    top: -3px;
+}
+
+.lightbox .featherlight-content {
+    min-width: 30%;
+}
+
+.setuptools.error {
+    color: #ae0000;
+    font-weight: bold;
+    z-index: 99999;
+}
+
+.setuptools.initsetup a {
+    font-weight: bold;
+}
+
+.setuptools .featherlight-content {
+    min-width: 20%;
+    max-width: 50%;
+}
+
+.setuptools-small .featherlight-content {
+    max-width: 370px;
+    min-width: 370px;
+}
+
+.setuptools-medium .featherlight-content {
+    max-width: 35%;
+}
+
+.drawhelp:not(.nostyle) {
+    position: absolute;
+    z-index: 9999;
+    top: 0;
+    right: 30px;
+    line-height: 25px;
+    width: 25px;
+    cursor: pointer;
+    text-align: center;
+    font-family: Arial, sans-serif;
+    background: #222;
+    background: rgba(255, 255, 255, 0.05);
+    color: #fff;
+    border: none;
+    padding: 0;
+    font-weight: bold;
+}
+
+.drawhelp.gohome {
+    right: 30px;
+}
+
+.drawhelp.noclose:not(.nostyle) {
+    right: 0px;
+}
+
+.featherlight-content h3 {
+    margin: 0;
+    padding: 0;
+}
+
+input.setuptools.app.wideinput {
+    font-size: 12px;
+    width: 100%;
+    border: #ffffff solid 1px;
+    background-color: #333;
+    padding: 3px;
+    color: #ffffff;
+}
+
+.featherlight-inner select:focus {
+    border: #22b7da solid 2px !important;
+}
+
+.featherlight-inner select:hover {
+    border: #5f9eb1 solid 2px;
+    transition: 0.1s linear;
+}
+
+.featherlight-inner select,
+.featherlight-inner input {
+    transition: 0.1s linear;
+    font-size: 12px;
+    width: 200px;
+    border: #707070 solid 2px;
+    background-color: #333;
+    padding: 3px;
+    color: #ffffff;
+    outline: none;
+}
+
+.setuptools textarea, textarea.setuptools {
+    background-color: #000;
+    color: #fff;
+    padding: 5px;
+    border: 1px solid #2386ff;
+    resize: none;
+}
+
+div.setuptools.app.uploadData {
+    width: 700px;
+}
+
+.setuptools.app.uploadData textarea {
+    width: 100%;
+    height: 300px;
+}
+
+
+.featherlight-content::-webkit-scrollbar-track,
+.scrollbar::-webkit-scrollbar-track,
+.setuptools.div.menu::-webkit-scrollbar-track
+{
+    -webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.3);
+    background: rgb(44, 74, 96);
+}
+
+.featherlight-content::-webkit-scrollbar,
+.scrollbar::-webkit-scrollbar,
+.setuptools.div.menu::-webkit-scrollbar
+{
+    width: 10px;
+    height: 10px;
+    background-color: #F5F5F5;
+}
+
+.featherlight-content::-webkit-scrollbar-thumb,
+.scrollbar::-webkit-scrollbar-thumb,
+.setuptools.div.menu::-webkit-scrollbar-thumb
+{
+    background: rgb(59, 134, 180);
+}
+
+.setuptools.app.config.settings:not(a) {
+    clear: both;
+    float: left;
+    width: 100%;
+}
+
+.setuptools.app.config.settings:not(:last-child) {
+    margin-bottom: 5px;
+}
+
+.setuptools.app.config.settings div {
+    float: left;
+    clear: left;
+    height: 25px;
+    padding-top: 6px;
+    margin-right: 10px;
+}
+
+.setuptools.app.config.settings input:disabled,
+.setuptools.app.config.settings select:disabled {
+    color: #777;
+    font-style: italic;
+}
+
+.setuptools.app.config.settings input,
+.setuptools.app.config.settings select {
+    clear: right;
+    float: right;
+}
+
+.setuptools.app.save {
+    float: right;
+    margin-right: 5px;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-bottom: 5px;
+    padding-top: 5px;
+    border: #ffffff solid 1px;
+    background-color: #111;
+    clear: right;
+    font-weight: normal !important;
+    font-size: 13px !important;
+    width: 175px;
+    text-align: center;
+}
+
+a.setuptools.app.config.settings.action {
+    margin-right: 5px;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-bottom: 5px;
+    padding-top: 5px;
+    border: #ffffff solid 1px;
+    background-color: #111;
+    font-weight: normal !important;
+    font-size: 13px !important;
+    width: 175px;
+    text-align: center;
+    margin-top: 20px;
+    text-decoration: none !important;
+}
+
+.deleteDisabled {
+    text-decoration: line-through !important;
+}
+
+.setuptools.app.deleteDisabled:hover {
+    text-decoration: line-through !important;
+}
+
+.setuptools.app.deleteDisabled:active {
+    text-decoration: line-through !important;
+}
+
+a.setuptools.app.config.settings.action:hover {
+    background-color: #000000;
+}
+
+a.setuptools.app.config.settings.action:active {
+    background-color: #222;
+}
+
+a.setuptools.app.config.settings.action.save {
+    float: right !important;
+    clear: both !important;
+}
+
+a.setuptools.app.config.settings.action.eraseAll,
+a.setuptools.app.config.settings.action.eraseCache {
+    float: left;
+    clear: both;
+    color: #9e0900 !important;
+}
+
+a.setuptools.app.action.destroy {
+    float: right;
+    clear: right;
+    color: #9e0900 !important;
+}
+
+a.setuptools.app.action.arrrrgbaaad {
+    float: left;
+    clear: left;
+    color: #9e0900 !important;
+}
+
+a.setuptools.app.action.destroy:hover,
+a.setuptools.app.action.arrrrgbaaad:hover,
+a.setuptools.app.config.settings.action.eraseAll:hover,
+a.setuptools.app.config.settings.action.eraseCache:hover {
+    color: #bb0b00 !important;
+}
+
+.featherlight-content strong, .featherlight-content code {
+    color: #22b7da;
+}
+
+.setuptools.app.backups.options {
+    clear: both;
+    float: left;
+    width: 100%;
+}
+
+.setuptools.app.backups.options:not(:last-child) {
+    margin-bottom: 5px;
+}
+
+.setuptools.app.backups.options div {
+    float: left;
+    clear: left;
+    height: 25px;
+    padding-top: 6px;
+    margin-right: 10px;
+}
+
+.setuptools.app.backups.options input,
+.setuptools.app.backups.options select {
+    clear: right;
+    float: right;
+    height: 25px;
+}
+
+/* groups manager */
+
+.setuptools.div.app {
+    clear: both;
+    float: left;
+    width: 100%;
+}
+
+.setuptools.div.app:not(:last-child) {
+    margin-bottom: 5px;
+}
+
+.setuptools.div.app div {
+    float: left;
+    clear: left;
+    height: 25px;
+    padding-top: 6px;
+    margin-right: 10px;
+}
+
+.setuptools.div.app input,
+.setuptools.div.app select {
+    clear: right;
+    float: right;
+    height: 25px;
+}
+
+.setuptools.bottom.container div:first-child {
+    margin-right: 10px;
+}
+
+.setuptools.bottom.container div:last-child:not(:first-child) {
+    margin-left: 10px;
+}
+
+.setuptools.div.groupEditor.container {
+    clear: both;
+}
+
+
+.setuptools.div.pageControls,
+.setuptools.div.groupControls,
+.setuptools.div.accountControls,
+.setuptools.div.groupList {
+    float: left;
+    clear: both;
+}
+
+.setuptools.div.accountControls div {
+    float: left;
+    border: #707070 solid 2px;
+    text-align: center;
+    vertical-align: middle;
+    margin-right: 5px;
+    padding: 3px 5px 0 5px;
+    font-size: 12px;
+    cursor: pointer;
+    height: 24px;
+}
+
+.setuptools.div.pageControls > div,
+.setuptools.div.groupControls div {
+    float: left;
+    border: #707070 solid 2px;
+    text-align: center;
+    vertical-align: middle;
+    margin-right: 5px;
+    padding: 1px 0 0 0;
+    margin-top: 5px;
+    font-size: 14px;
+    cursor: pointer;
+    width: 25px;
+    height: 24px;
+}
+
+.setuptools.div.pageControls > div:not(.selected),
+.setuptools.div.groupControls div:not(.selected),
+.setuptools.div.accountControls div:not(.selected) {
+    background-color: #333;
+}
+
+
+
+.setuptools.div.menu {
+    position: absolute;
+    z-index: 2147483647;
+    width: 200px;
+    background-color: rgb(28, 45, 85);
+    overflow: hidden;
+    box-shadow: #111 0 0 1px 4px;
+}
+
+.setuptools.header {
+    background-color: #222;
+}
+
+.setuptools.div.menu > div {
+    float: left;
+    clear: both;
+    width: 100%;
+    box-sizing: border-box;
+    padding: 7px;
+}
+
+.smallMenuCells > div {
+    padding: 5px !important;
+}
+
+.smallMenuCells > div.header:not(.noselect):hover {
+    background-color: #383838 !important;
+}
+
+.smallMenuCells div:hover,
+.smallMenuCells div:hover > a {
+    color: #56a7ff !important;
+    text-decoration: none !important;
+    transition: 0.2s linear;
+}
+
+.smallMenuCells div:hover > a:hover {
+    text-decoration: none !important;
+}
+
+.setuptools.div.menu > div:not(.noselect) {
+    cursor: pointer;
+}
+
+.setuptools.div.menu > div:not(.input) {
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+.setuptools.div.menu > div:not(:last-child) {
+    border-bottom: 3px solid #111;
+}
+
+.setuptools.div.menu > div:not(.noselect):not(.input):hover {
+    background-color: #253c63;
+}
+
+.menuSelected {
+    background-color: #253c63;
+}
+
+.setuptools.div.menu div.input {
+    padding: 7px;
+}
+
+.setuptools.div.menu strong {
+    color: rgb(49, 164, 214);
+}
+
+.setuptools.div.menu div.input > div {
+    width: 100%;
+    padding: 0;
+    margin: 0;
+    overflow: hidden;
+}
+
+.setuptools.div.menu div.select > select {
+    font-size: 12px;
+    width: 100%;
+    border: #707070 solid 2px;
+    background-color: #333;
+    padding: 3px;
+    color: #ffffff;
+    outline: none;
+}
+
+.setuptools.div.menu div.input > div > div:first-child {
+    width: auto;
+    height: auto;
+    margin: 0;
+    padding: 0;
+    float: left;
+    clear: left;
+}
+
+.setuptools.div.menu div.input > div > div:first-child > input {
+    width: 140px !important;
+    height: 21px;
+    margin: 0;
+}
+
+.setuptools.div.menu div.input > div > div:last-child {
+    width: 31px;
+    margin: 3px 0 0 0 !important;
+    text-align: center;
+    background-color: inherit !important;
+    float: left;
+    clear: right;
+}
+
+
+
+/* group editor */
+.setuptools.div.groups.editor.active {
+    min-width: 670px;
+}
+
+.setuptools.div.groups.editor > div {
+    width: 325px;
+}
+
+.setuptools.div.groups.editor > div.availableAccounts {
+    float: left;
+    clear: left;
+    margin-right: 5px;
+}
+
+.setuptools.div.groups.editor > div.groupMembers {
+    float: right;
+    clear: right;
+}
+
+div.nocontext {
+   cursor: initial;
+}
+
+.setuptools.div.groups.editor > div > div:first-child:not(.pageControls):not(.menuStyle):not(.formStyle) {
+    border-bottom: #b4b4b4 solid 2px;
+}
+
+.setuptools.div.groups.editor div.cell {
+    width: 100%;
+}
+
+div.setuptools.div.pageControls div.editor.control.massSwitch {
+    float: right;
+}
+
+div.setuptools.div.pageControls div.editor.control.lastPage {
+    float: right;
+    clear: right;
+}
+
+div.setuptools.div.pageControls div.editor.control.nextPage {
+    float: right;
+}
+
+div.setuptools.div.pageControls div.editor.control.firstPage {
+    float: left;
+    clear: left;
+}
+
+div.setuptools.div.pageControls div.editor.control.previousPage {
+    float: left;
+}
+
+div.setuptools.div.pageControls div.editor.control.customPage,
+div.setuptools.div.pageControls div.editor.control.searchName {
+    background-color: #222;
+    width: auto;
+    border: 0 !important;
+    padding-top: 0 !important;
+    float: left;
+    margin-right: 0 !important;
+}
+
+div.setuptools.div.pageControls div.editor.control input {
+    font-size: 12px;
+    width: 35px;
+    height: 24px;
+    border: 2px solid #707070;
+    background-color: #333;
+    color: #ffffff;
+    padding-left: 2px;
+    padding-right: 2px;
+    text-align: center;
+}
+
+div.setuptools.div.pageControls div.editor.control span {
+    font-weight: normal;
+    padding-top: 3px;
+    font-size: 12px;
+    cursor: default !important;
+}
+
+div.editor.control.searchName input {
+    width: 200px !important;
+    text-align: left !important;
+}
+
+div.setuptools.div.pageControls div.editor.control.gotoPage,
+div.setuptools.div.pageControls div.editor.control.search {
+    float: left;
+    border: 0 !important;
+    background-color: #222;
+    padding: 0 !important;
+}
+
+div.setuptools.div.pageControls div.editor.control.gotoPage:hover,
+div.setuptools.div.pageControls div.editor.control.search:hover {
+    color: rgb(59, 85, 255);
+}
+
+
+div.setuptools.div.pageControls.full {
+    width: 100%;
+}
+
+div.setuptools.div.pageControls > div {
+    padding-top: 0 !important;
+    font-size: 14px;
+    font-weight: bold;
+}
+
+div.setuptools.div.pageControls > div:hover:not(.nohover),
+div.setuptools.div.pageControls > div:active:not(.nohover) {
+    background-color: #0c0870;
+}
+
+div.setuptools.div.pageControls div.lastPage {
+    margin-right: 0 !important;
+}
+
+.setuptools.div.groups.editor > div > div > div.cell:hover,
+div.setuptools.div.pageControls div.editor.control.massSwitch:hover {
+    background-color: #0c0870;
+}
+
+.select, .select .featherlight-content {
+    -webkit-touch-callout: initial !important;
+    -webkit-user-select: initial !important;
+    -khtml-user-select: initial !important;
+    -moz-user-select: initial !important;
+    -ms-user-select: initial !important;
+    user-select: initial !important;
+}
+
+.noselect:not(.select),
+.featherlight-content:not(.select),
+#top:not(.select) > div {
+    -webkit-touch-callout: none;
+    -webkit-user-select: none;
+    -khtml-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+}
+
+.relBottom {
+    position: absolute;
+    bottom: 0;
+}
+
+.setuptools.groupSaveControls > div > div.save.result {
+    float: right;
+    clear: right;
+    color: #008cfc;
+}
+
+div.error, span.error {
+    color: red !important;
+}
+
+div.success, span.success {
+    color: #00b0fc !important;
+    margin-left: 5px;
+}
+
+.hidden {
+    display: none;
+}
+
+.setuptools.containerSettings {
+    width: 450px;
+}
+
+/* accounts manager */
+
+.setuptools.accounts.editor {
+    width: 495px;
+}
+
+.setuptools.accounts.editor > div.AccountsList > div.list {
+    margin-top: 5px;
+    float: left;
+    clear: both;
+}
+
+.setuptools.accounts.editor > div.AccountsList > div.list > div.cell:not(:last-child) {
+    margin-bottom: 5px;
+    float: left;
+    clear: both;
+}
+
+.setuptools.accounts.editor > div.AccountsList > div.list > div.cell > div {
+    float: left;
+}
+
+.setuptools.accounts.editor > div.AccountsList > div.list > div.cell > div:not(:last-child) {
+    margin-right: 5px;
+}
+
+div.setuptools.app.accountControls div {
+    margin-top: 0 !important;
+}
+
+div.setuptools.div.pageControls div.editor.control.massSwitch,
+div.accountControls > div {
+    width: 25px;
+    text-align: center;
+}
+
+div.accountControls > div:last-child {
+    margin-right: 0 !important;
+}
+
+div.setuptools.div.pageControls div.editor.control.massSwitch:hover,
+div.accountControls > div:hover,
+.formStyle:hover {
+    background-color: #040f51 !important;
+    color: #22b7da;
+}
+
+div.accountControls > div[data-option="delete"]:hover {
+    background-color: #6e070a !important;
+    color: #fd0005;
+}
+
+
+
+div.empty {
+    background-color: initial;
+    border: initial;
+    margin-top: 5px;
+    margin-right: 5px;
+    clear: left;
+    float: left;
+}
+
+div.empty:hover {
+    background-color: initial !important;
+    cursor: initial;
+}
+
+div.controller.saveNotice {
+    margin-top: 5px;
+    margin-right: 5px;
+}
+
+div.AccountsList > div.controller.newAccount {
+    margin-top: 5px;
+    clear: right;
+    float: right;
+}
+
+div.AccountsList > div.controller.saveAccounts {
+    margin-top: 34px;
+    float: left;
+    clear: left;
+    margin-right: 5px;
+}
+
+div.AccountsList > div.controller.saveAccounts > span#changeStatus {
+    float: right;
+}
+
+div.AccountsList > div.controller.exportAccountsJS {
+    margin-right: 0;
+    margin-top: 5px;
+}
+
+div.AccountsList > div.controller.importAccountsJS {
+    margin-top: 34px;
+    margin-right: 0;
+    float: right;
+    clear: right;
+}
+
+div.massSwitch > div.cfleft {
+    margin-bottom: 5px;
+    margin-right: 5px;
+    margin-top: 3px;
+    height: 24px
+}
+
+div.massSwitch > div.link {
+    margin-bottom: 5px;
+}
+
+/* feedback */
+.setuptools.div.feedback > div:first-child {
+    flex-basis: 200px;
+}
+
+.setuptools.div.feedback > div:last-child {
+    flex-grow: 2;
+}
+
+/* button types */
+
+.menuStyleHover:hover {
+    color: #00ceff;
+}
+
+.menuStyle {
+    float: left;
+    cursor: pointer;
+    font-size: 12px;
+    width: 200px;
+    padding: 3px;
+    color: #00ceff;
+    background-color: #132236;
+    border: #000 solid 2px;
+    margin-right: 5px;
+    transition: 0.3s linear;
+}
+
+.formStyle {
+    float: left;
+    cursor: pointer;
+    font-size: 12px;
+    width: 200px;
+    padding: 3px;
+    border: #004db4 solid 2px;
+    background-color: #0e1622;
+    color: #2386ff;
+}
+
+div.AccountsList > div.controller.saveAccounts:not(.saveNotice):hover,
+div.AccountsList > div.controller.importAccountsJS:hover,
+div.AccountsList > div.controller.exportAccountsJS:hover,
+.menuStyle:hover {
+    background-color: #142346 !important;
+}
+
+.menuStyle.neutral {
+    color: #f6dfb8;
+    background-color: #2b2829;
+    cursor: initial !important;
+}
+
+.menuStyle.neutral:hover {
+    background-color: #2b2829 !important;
+    cursor: initial !important;
+}
+
+.menuStyle.negative {
+    color: #f6a084;
+    background-color: #321417;
+}
+
+.menuStyle.negative:hover {
+    background-color: #3c0e19 !important;
+}
+
+.menuStyle.ack {
+    opacity: 0.9;
+    font-weight: normal;
+    color: #95f8ff;
+    background-color: #25394b;
+}
+
+.menuStyle.ack:hover {
+    background-color: #1d535f !important;
+}
+
+.menuStyle.positive {
+    color: #7df67f;
+    background-color: #132b1c;
+}
+
+.menuStyle.positive:hover {
+    background-color: #103c29 !important;
+}
+
+.menuStyle.disabled {
+    color: #65676a !important;
+    background-color: #37393d !important;
+}
+
+.menuStyle.disabled:hover {
+    color: #5b6876 !important;
+    background-color: #3a434d !important;
+}
+
+.menuStyle.disabled.truly:hover {
+    color: #65676a !important;
+    background-color: #37393d !important;
+    cursor: initial !important;
+}
+
+.menuStyle.notice {
+    color: #c78bff;
+    background-color: #2c1d2e;
+}
+
+.menuStyle.notice:hover {
+    background-color: #302532 !important;
+}
+
+.menuSmall {
+    width: 150px;
+}
+
+.menuTiny {
+    width: 100px;
+    text-align: center;
+}
+
+.menuRelative {
+    width: initial !important;
+}
+
+/* generic positioning */
+.fleft {
+    float: left !important;
+}
+
+.fright {
+    float: right !important;
+}
+
+.cfleft {
+    float: left;
+    clear: left;
+}
+
+.cfright {
+    float: right;
+    clear: right;
+}
+
+.cboth {
+    clear: both;
+}
+
+.nomargin {
+    margin: 0 !important;
+}
+
+.textCenter {
+    text-align: center;
+}
+
+/* specific featherlight variants */
+.fl-AccountsManager .featherlight-content  {
+    width: 545px;
+}
+
+.fl-AccountsSmall .featherlight-content  {
+    width: 450px;
+}
+
+.fl-GroupsManager .featherlight-content {
+    min-width: 365px;
+    max-width: 725px;
+}
+
+.fl-MuleQueueManager .featherlight-content {
+    width: 650px;
+}
+
+.fl-MuleQueueHistory .featherlight-content {
+    width: 800px;
+}
+
+.fl-Chsort .featherlight-content {
+    width: 904px;
+}
+
+.fl-BackupsManager .featherlight-content {
+    min-width: 350px;
+    max-width: 510px;
+}
+
+.fl-BackupsModify .featherlight-content {
+    width: 455px;
+}
+
+.fl-Index .featherlight-content {
+    width: 370px;
+}
+
+.fl-Totals .featherlight-content {
+    width: 810px;
+}
+
+.fl-IndexCentered .featherlight-content {
+    width: 370px;
+    text-align: center;
+}
+
+.fl-Introduction .featherlight-content {
+    width: 465px;
+}
+
+.fl-Notice .featherlight-content {
+    width: 450px;
+    text-align: justify;
+}
+
+.fl-AccountsJSImport .featherlight-content {
+    min-width: 500px;
+    max-width: 750px;
+}
+
+.fl-BackupUpload .featherlight-content {
+    min-width: 500px;
+    max-width: 750px;
+}
+
+.fl-BackupRestore .featherlight-content {
+    width: 422px;
+}
+
+.fl-Settings .featherlight-content {
+    width: 497px;
+}
+
+.fl-SettingsSmall .featherlight-content {
+    width: 384px;
+}
+
+.fl-MuleCrypt .featherlight-content {
+    width: 600px;
+}
+
+.fl-Wardrobe .featherlight-content {
+    max-width: 570px;
+}
+
+.fl-Wardrobe.short .featherlight-content {
+    max-width: 75%;
+    max-height: 60%;
+}
+
+.fl-Whitebags .featherlight-content {
+    width: 564px;
+}
+
+.fl-MuleCryptAnimated.featherlight {
+    background: rgba(0, 0, 0, 0.8) url('../../media/mulecrypt-background.svg') !important;
+    transition: background-color 2s ease;
+}
+
+.fl-Exporter .featherlight-content {
+    min-width: 400px;
+    max-width: 80%;
+}
+
+/* other */
+
+.m0 {
+    margin: 0 !important;
+}
+
+.ml5 {
+    margin-left: 5px !important;
+}
+
+.mb5 {
+    margin-bottom: 5px !important;
+}
+
+.mb0 {
+    margin-bottom: 0 !important;
+}
+
+.mr5 {
+    margin-right: 5px !important;
+}
+
+.mr0 {
+    margin-right: 0 !important;
+}
+
+.mt10 {
+    margin-top: 10px !important;
+}
+
+.mt5 {
+    margin-top: 5px !important;
+}
+
+.mt15 {
+    margin-top: 15px !important;
+}
+
+.ol1 {
+    margin-left: -1px !important;
+}
+
+.w100 {
+    width: 100% !important;
+}
+
+.w400px {
+    width: 400px;
+}
+
+.h100 {
+    height: 100%;
+}
+
+.p5 {
+    padding: 5px;
+}
+
+input[type="checkbox"] {
+    width: auto;
+}
+
+/*file input*/
+.Accounts-AccountsJSImport {
+    width: 100%;
+    margin-top: 17px;
+}
+
+.Backups-BackupOptions > div {
+    width: 70px;
+    text-align: center;
+}
+
+.Settings-Menu > div {
+    width: 108px;
+    margin-right: 5px;
+    text-align: center;
+}
+
+.Groups-ManagerMenu > div {
+    width: 100px;
+    margin-right: 5px;
+    text-align: center;
+}
+
+.dragbox div {
+    padding: 10px;
+    margin-top: 5px;
+    margin-right: 5px;
+    border: #707070 solid 2px;
+    background-color: #1a1a1a;
+    float: left;
+    cursor: pointer;
+}
+
+.dragbox div:last-child {
+    margin-right: 0 !important;
+}
+
+.dragbox div.selected,
+.selected:not(.item) {
+    background-color: #040f51 !important;
+    color: #22b7da !important;
+}
+
+div.tooltip:not(.autoHeight) {
+    height: 36px;
+}
+
+div.tooltip {
+    z-index: 500;
+    position: absolute;
+    border: #22b7da solid 2px;
+    color: #ffffff;
+    text-align: left;
+    background-color: #2c2c2c;
+}
+
+.highz,
+.whitebagTrackerTooltip,
+.ownedSkinsTooltip,
+.hiddenItemsTooltip,
+.itemSubsortingTooltip {
+    z-index: 9999999999 !important;
+}
+
+.ownedSkinsTooltip {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 2px solid #ffffff !important;
+    margin-top: -5px;
+    margin-left: -1px;
+}
+
+div.ownedSkinsTooltip > div {
+    padding: 5px 10px;
+    color: #fff;
+}
+
+div.tooltip > div:not(.ignore) {
+    padding: 4px;
+}
+
+span.tooltip.ut {
+    color: #8a2be2;
+    font-weight: bold;
+    float: right;
+}
+
+span.tooltip.st {
+    color: #ff9900;
+    font-weight: bold;
+    float: right;
+}
+
+span.tooltip.tiered {
+    color: #ffffff;
+    font-weight: bold;
+    float: right;
+}
+
+span.tooltip.feed {
+    color: #fc8642;
+}
+
+span.tooltip.generic.text {
+    color: #b3b3b3;
+}
+
+span.tooltip.famebonus.value {
+    color: #ffff8f;
+}
+
+div.tooltip div.bagType {
+    background: url(../../media/bagTypes.png) #2c2c2c;
+    overflow: hidden;
+    width: 26px;
+    height: 26px;
+    position: relative;
+    margin-left: 6px;
+    margin-right: 2px;
+    margin-top: 5px;
+}
+
+img.boost {
+    width: 11px;
+    height: 14px;
+    margin-top: 10px;
+    margin-right: 5px;
+    overflow: hidden;
+    float: left;
+    border: 0;
+    cursor: pointer;
+    z-index: 450;
+}
+
+img.hidden {
+    display: none;
+}
+
+.tooltip-textiles {
+    height: auto !important;
+    padding: 5px;
+}
+
+.tooltip-boost {
+    height: auto !important;
+    width: 175px;
+    padding: 5px;
+}
+
+@keyframes savepulse {
+    0% {
+        background-color: #213154;
+    }
+    100% {
+        background-color: #225b7f;
+    }
+}
+
+@keyframes notifypulse {
+    0% {
+        background-color: #0094ff;
+    }
+    100% {
+        background-color: #0056a4;
+    }
+}
+
+@keyframes rateLimitedPulse {
+    0% {
+        background-color: #ac0017;
+    }
+    100% {
+        background-color: #82120c;
+    }
+}
+
+@keyframes runningPulse {
+    0% {
+        background-color: #2bac00;
+    }
+    100% {
+        background-color: #2b8211;
+    }
+}
+
+@keyframes pausedPulse {
+    0% {
+        background-color: #2bac00;
+    }
+    100% {
+        background-color: #424242;
+    }
+}
+
+.center .featherlight-content {
+    text-align: center;
+}
+
+.nobackground {
+    background: initial !important;
+}
+
+.nobackground .featherlight-content {
+    border: #000 solid 2px;
+    box-shadow: 0 0 1px 4px #000;
+}
+
+.setuptools .featherlight-content {
+    border-bottom: 0;
+    padding: 25px;
+}
+
+.flex-container {
+    display: flex;
+}
+
+.flex-container:not(.noFlexAutoWidth) {
+    width: 100%;
+}
+
+.flex-container:not(.noFlexAutoAlign) {
+    align-items: center;
+}
+
+.flex-container:not(.noFlexAutoJustify) {
+    justify-content: center;
+}
+
+.notifyPulse {
+    color: #ffffff;
+    animation: notifypulse 3s infinite;
+    animation-direction: alternate;
+}
+
+.savePulse {
+    animation: savepulse 3s infinite;
+    animation-direction: alternate;
+}
+
+.rateLimited:not(.nopulse) {
+    animation: rateLimitedPulse 3s infinite;
+    animation-direction: alternate;
+}
+
+.pastebin {
+    text-decoration: line-through;
+}
+
+a.rateLimited {
+    color: #ff0000;
+    text-decoration: none;
+    letter-spacing: 1px;
+}
+
+a.rateLimited:hover {
+    color: #ff0000;
+}
+
+.running {
+    animation: runningPulse 3s infinite;
+    animation-direction: alternate;
+}
+
+.paused {
+    animation: pausedPulse 3s infinite;
+    animation-direction: alternate;
+}
+
+.rateLimitMenu {
+    background-color: #82120c !important;
+}
+
+.rateLimitMenu > div:not(.noselect):hover {
+    background-color: #9b120c !important;
+}
+
+.rateLimitMenu a,
+.rateLimitMenu a:hover {
+    color: #fff !important;
+    font-weight: bold !important;
+    text-decoration: none !important;
+}
+
+.mulequeue-topMenu,
+.totalsMenu,
+.smallMenuCells {
+    background-color: #2c2c2c !important;
+}
+
+div.exporterMenu {
+    text-align: center;
+}
+
+div.exporterMenu > div:nth-child(1),
+div.exporterMenu > div:nth-child(2) {
+    padding: 0 15px 0 0;
+}
+
+textarea.setuptools.text.exporter {
+    height: 400px;
+    margin: 15px 0 0 0;
+}
+
+.mulequeue-topMenu a,
+.mulequeue-topMenu a:hover,
+.exporterMenu a,
+.exporterMenu a:hover,
+.smallMenuCells a,
+.smallMenuCells a:hover {
+    color: #fff !important;
+    text-decoration: none !important;
+    font-weight: normal !important;
+}
+
+/* loading spinner */
+
+@keyframes lds-wedges {
+    0% {
+        -webkit-transform: rotate(0deg);
+        transform: rotate(0deg);
+    }
+    100% {
+        -webkit-transform: rotate(360deg);
+        transform: rotate(360deg);
+    }
+}
+@-webkit-keyframes lds-wedges {
+    0% {
+        -webkit-transform: rotate(0deg);
+        transform: rotate(0deg);
+    }
+    100% {
+        -webkit-transform: rotate(360deg);
+        transform: rotate(360deg);
+    }
+}
+
+#spinner {
+    display: inline-block;
+    cursor: pointer;
+    height: 23px;
+    width: 23px;
+    z-index: 500;
+    border: none;
+}
+
+.lds-wedges {
+    position: relative;
+}
+.lds-wedges > div > div {
+    -webkit-transform-origin: 100px 100px;
+    transform-origin: 100px 100px;
+    -webkit-animation: lds-wedges 3s linear infinite;
+    animation: lds-wedges 3s linear infinite;
+    opacity: 0.8;
+}
+.lds-wedges > div > div > div {
+    position: absolute;
+    left: 30px;
+    top: 30px;
+    width: 70px;
+    height: 70px;
+    border-radius: 70px 0 0 0;
+    -webkit-transform-origin: 100px 100px;
+    transform-origin: 100px 100px;
+}
+.lds-wedges > div div:nth-child(1) > div {
+    background: #93dbe9;
+    -webkit-transform: rotate(0deg);
+    transform: rotate(0deg);
+}
+.lds-wedges > div div:nth-child(1) {
+    -webkit-animation-duration: 0.75s;
+    animation-duration: 0.75s;
+}
+.lds-wedges > div div:nth-child(2) > div {
+    background: #689cc5;
+    -webkit-transform: rotate(0deg);
+    transform: rotate(0deg);
+}
+.lds-wedges > div div:nth-child(2) {
+    -webkit-animation-duration: 1s;
+    animation-duration: 1s;
+}
+.lds-wedges > div div:nth-child(3) > div {
+    background: #5e6fa3;
+    -webkit-transform: rotate(0deg);
+    transform: rotate(0deg);
+}
+.lds-wedges > div div:nth-child(3) {
+    -webkit-animation-duration: 1.5s;
+    animation-duration: 1.5s;
+}
+.lds-wedges > div div:nth-child(4) > div {
+    background: #3b4368;
+    -webkit-transform: rotate(0deg);
+    transform: rotate(0deg);
+}
+.lds-wedges > div div:nth-child(4) {
+    -webkit-animation-duration: 3s;
+    animation-duration: 3s;
+}
+.lds-wedges {
+    width: 23px !important;
+    height: 23px !important;
+    -webkit-transform: translate(-11.5px, -11.5px) scale(0.115) translate(11.5px, 11.5px);
+    transform: translate(-11.5px, -11.5px) scale(0.115) translate(11.5px, 11.5px);
+}
+
+/* mulequeue manager css */
+
+div.setuptools.mulequeue.manager {
+    width: 100%;
+}
+
+div.setuptools.mulequeue.manager > div.QueueList > div.pageControls > div {
+    margin-top: 0 !important;
+}
+
+div.QueueList > div.list > div.queuetask {
+    align-items: stretch;
+}
+
+div.QueueList > div.list > div.queuetask:not(:last-child) {
+    margin: 5px 0;
+}
+
+div.QueueList > div.list > div.queuetask > div:not(:last-child) {
+    margin-right: 5px;
+}
+
+div.mulequeue.progress:not(.AReduced) {
+    background-image: url(../../media/mulequeue-loadingbar-background.svg);
+}
+
+div.mulequeue.progress > div.bar:not(.rateLimited) {
+    background-image: url(../../media/mulequeue-loading-foreground.svg);
+}
+
+div.mulequeue.progress:not(.AReduced) > div.bar:not(.rateLimited) > div {
+    background-image: url(../../media/mulequeue-loading-foreground-overlay.svg);
+}
+
+div.mulequeue.progress:not(.AReduced) > div.bar.rateLimited {
+    width: 100% !important;
+    background-image: url(../../media/mulequeue-loading-rateLimited-foreground.svg);
+}
+
+div.QueueList div.queuetask > div:first-child {
+    flex-basis: 27px;
+    height: 24px;
+}
+
+div.QueueList div.queuetask > div:nth-child(2) {
+    flex-basis: 539px;
+    justify-content: space-between;
+    border: 0;
+}
+
+div.QueueList div.queuetask > div:nth-child(2) > div:first-child {
+    flex-basis: 439px;
+    overflow: hidden;
+    word-wrap: break-word;
+}
+
+div.QueueList div.queuetask > div:nth-child(2) > div:last-child {
+    flex-basis: 100px;
+    text-align: right;
+    justify-content: flex-end;
+}
+
+div.QueueList div.queuetask > div:nth-child(3) {
+    flex-basis: 30px;
+    height: 24px;
+    justify-content: flex-end;
+}
+
+div.QueueList div.queuetask > div:nth-child(3) > div:first-child {
+    flex-basis: 25px;
+}
+
+div.mulequeue.progress {
+    position: relative;
+    box-shadow: 0 0 2px 2px #000000;
+    height: 30px;
+    margin: 10px 0;
+    justify-content: center;
+}
+
+div.mulequeue.progress > div.percentage {
+    z-index: 5000;
+    text-shadow: 1px 1px #000000;
+    background: rgba(0, 0, 0, 0.15);
+    padding: 2px;
+}
+
+div.mulequeue.progress > div.bar {
+    position: absolute;
+    left: 0;
+    top: 0;
+    height: 100%;
+    width: 0;
+}
+
+div.mulequeue.main.menu.reload {
+    padding: 0;
+}
+
+div.mulequeue.main.menu {
+    font-size: 12px !important;
+    font-weight: normal !important;
+}
+
+div.setuptools.mulequeue.link.history {
+    font-size: 16px !important;
+}
+
+div.mulequeue.queueCount {
+    cursor: initial !important;
+    width: auto !important;
+    font-size: 12px !important;
+    padding: 0 5px !important;
+    font-weight: normal !important;
+}
+
+div.QueueHistory > div.list > div.historyitem {
+    padding: 0 2px;
+}
+
+img.spinner {
+    width: 19px;
+    height: 19px;
+}
+
+#stickynotice.rateLimited {
+    background: url(../../media/top-rateLimited.svg);
+}
+
+.buttonStyle {
+    border: #707070 solid 2px;
+    text-align: center;
+    vertical-align: middle;
+    margin-right: 5px;
+    cursor: pointer;
+    width: 25px;
+    height: 24px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.textLeft {
+    text-align: left;
+}
+
+.pagesearch.result {
+    width: 100px;
+    height: 30px;
+    padding: 5px;
+    margin: 5px;
+    position: absolute;
+    box-shadow: #000000 2px 2px;
+    background: #00c1e3;
+    font-weight: bold;
+    text-shadow: 1px 1px #000000;
+    z-index: 5002;
+}
+
+strong.negative {
+    color: #da281e;
+}
+
+strong.info {
+    color: #af23da;
+}
+
+.realmeyeBorder {
+    background-color: #00b0fc !important;
+}
+
+#itemSubsortingBox {
+    max-height: 440px;
+    overflow-y: scroll;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+}
+
+#itemSubsortingBox > div {
+    transition: 0.3s linear;
+    cursor: pointer;
+}
+
+#itemSubsortingBox > div:hover {
+    background-color: #3e6a7d;
+}
+
+#itemSlotTypeSorting {
+    justify-content: space-between;
+    align-items: center;
+    display: flex;
+}
+
+#itemSlotTypeSorting > div {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 135px;
+    height: 44px;
+    padding: 10px;
+    margin: 10px 5px 5px 5px;
+    background-color: #333;
+    border: #000000 solid 1px;
+    cursor: pointer;
+    transition: 0.3s linear;
+}
+
+.ownedSkins img.enabled,
+.mule.filteringEnabled,
+.itemSlotTypeSorting.enabled,
+.charsort.enabled,
+.enabled.item.cloth.selector {
+    border: #00eaff solid 1px !important;
+}
+
+.dragging,
+.dragging:hover {
+    background-color: #3a7078 !important;
+}
+
+.dragging.bright,
+.dragging.bright:hover {
+    background-color: #4b879b !important;
+}
+
+#itemSlotTypeSorting > div:active,
+#itemSlotTypeSorting > div:hover {
+    background-color: #3d4f55;
+}
+
+.expansion {
+    cursor: pointer;
+}
+
+.expansion:hover {
+    color: #00ceff;
+}
+
+#accountFilterList {
+    flex-wrap: wrap;
+    justify-content: flex-start;
+}
+
+#accountFilterList > div {
+    display: flex;
+    justify-content: center;
+    margin: 5px 5px 0 0;
+    padding: 5px;
+    border: #000000 solid 1px;
+    background-color: #333;
+    transition: 0.3s linear;
+}
+
+#accountFilterList > div:hover {
+    background-color: #3d4f55;
+    cursor: pointer;
+}
+
+#hiddenItems:empty {
+    height: 0 !important;
+    overflow: hidden !important;
+}
+
+#drawhelpBox h2 {
+    border-bottom: 1px solid #ffffff;
+}
+
+#drawhelpBox h3 {
+    color: #74c8ff;
+    background-color: #333;
+    padding: 2px 5px;
+}
+
+#drawhelpBox h4 {
+    color: #90ccff;
+}
+
+
+.systemsReport > div:first-child {
+    width: 60%;
+}
+
+.systemsReport > div:last-child {
+    width: 40%;
+    text-align: right;
+}
+
+div.systemsReport:nth-child(even) > div {
+    background-color: #111;
+}
+
+div.systemsReport:nth-child(odd) > div {
+    color: #90ccff;
+}
+
+div#charField {
+    height: 225px;
+    overflow-y: scroll;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+}
+
+div#charField > div.cell {
+    cursor: pointer;
+    width: 200px;
+    flex-grow: 0;
+    margin: 5px;
+    padding: 4px 2px 2px 2px;
+}
+
+.ownedSkins:not(:last-child) {
+    margin-bottom: 20px;
+}
+
+div.ownedSkins {
+    background-color: #222;
+    justify-content: flex-start;
+    flex-wrap: wrap;
+}
+
+div.ownedSkins > div:nth-child(1) {
+    justify-content: space-between;
+    padding: 5px;
+    border: 2px solid #000000;
+    background-color: #333;
+}
+
+div.ownedSkins > div:nth-child(1) > div {
+    font-size: 14px;
+}
+
+div.ownedSkins > div:nth-child(1) > div:nth-child(2) {
+    font-weight: bold;
+}
+
+div.item.cloth.selector:hover:not(.enabled),
+div.item.wb:hover:not(.selected),
+img.ownedSkins:hover {
+    outline: solid 2px #ffffff !important;
+    outline-offset: -1px;
+    transition: 0.1s linear;
+}
+
+div.wbmenu {
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    margin-bottom: 10px;
+}
+
+div.wbmenu:last-child {
+    margin-bottom: 16px;
+}
+
+div.wbmenu > div:nth-child(1) {
+    width: 45%;
+    justify-content: flex-end;
+}
+
+div.wbmenu > div:nth-child(2) {
+    width: 45%;
+    justify-content: flex-start;
+}
+
+div.wbmenu > div:nth-child(1) > select,
+div.wbmenu > div:nth-child(2) > div {
+    width: 50%;
+    height: 26px;
+}
+
+div.wbimportoptions {
+    justify-content: space-between;
+    margin: 25px 0 0 0;
+    flex-flow: column;
+}
+
+div.wbimportoptions > div {
+    justify-content: space-between;
+}
+
+.bg222 {
+    background-color: #222;
+}
+
+.bg333 {
+    background-color: #333;
+}
