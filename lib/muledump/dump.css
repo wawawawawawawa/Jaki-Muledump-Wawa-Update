@@ -136,6 +136,232 @@ div#export div { padding: 0 5px; }
 }
 
 #errors:empty { display: none; }
+/*WAWAWA*/
+
+.flex-container {
+    display: flex;
+}
+
+.flex-container:not(.noFlexAutoWidth) {
+    width: 100%;
+}
+
+.flex-container:not(.noFlexAutoAlign) {
+    align-items: center;
+}
+
+.flex-container:not(.noFlexAutoJustify) {
+    justify-content: center;
+}
+
+.boost {
+	/* background: url(lib/boost.png) #2c2c2c;	 */
+	background-size: cover;
+    /* width: 12px; */
+    /* height: 15px; */
+    margin-right: 5px;
+    overflow: hidden;
+	/* cursor: default; */
+    /* z-index: 450; */
+}
+
+img.pet {
+	/* background: url(petImg.png) #2c2c2c;	 */
+	background-size: cover;
+    width: 15px;
+    height: 15px;
+    margin-right: 5px;
+    overflow: hidden;
+    /* z-index: 450; */
+}
+
+img.hidden {
+    display: none;
+}
+
+div.tooltip div.bagType {
+    background: url(bagTypes.png) #2c2c2c;
+    overflow: hidden;
+    width: 26px;
+    height: 26px;
+	margin-bottom: 5px;
+    margin-top: 5px;
+}
+
+div.ClassType {
+    /* background: url(ClassicSkins.png) #2c2c2c; */
+    overflow: hidden;
+    /* width: 82px; */
+    /* height: 82px; */
+    /* margin-right: 5px; */
+}
+
+div.WawaType {
+	margin-bottom: 2px;
+    margin-top: 2px;
+    margin-left: 2px;
+}
+
+/* generic positioning */
+.fleft {
+    float: left !important;
+}
+
+.fright {
+    float: right !important;
+}
+
+.cfleft {
+    float: left;
+    clear: left;
+}
+
+.cfright {
+    float: right;
+    clear: right;
+}
+
+.cboth {
+    clear: both;
+}
+
+.nomargin {
+    margin: 0 !important;
+}
+
+.textCenter {
+    text-align: center;
+}
+/* other */
+.mt5 {
+	margin-top: 5px;
+}
+
+.mt10 {
+	margin-top: 10px;
+}
+
+.mb5 {
+    margin-bottom: 5px;
+}
+
+.mr5 {
+    margin-right: 5px;
+}
+
+.mr10 {
+    margin-right: 10px;
+}
+
+.ml5 {
+	margin-left: 5px;
+}
+
+.pr5 {
+	padding-right: 5px;
+}
+
+.pt5 {
+	padding-top: 5px;
+}
+
+.pb5 {
+	padding-bottom: 5px;
+}
+
+.pl5 {
+	padding-left: 5px;
+}
+
+.petItem {
+    flex-grow: 1;
+	min-width: 40px;
+    height: 40px;
+	background: url(renders.png) #545454;
+	margin: 2px;
+}
+
+.statItem {
+    flex-grow: 1;
+	margin-left: 5px;
+	margin-right: 5px;
+}
+
+.statContainer {
+    display: flex;
+	justify-content: flex-start;
+	flex-direction: column;
+	flex-wrap: nowrap;
+}
+
+.hidden {
+    display: none;
+}
+
+.selected:not(.item) {
+    background-color: #040f51 !important;
+    color: #22b7da !important;
+}
+
+.enabled.item.cloth.selector {
+    border: #00eaff solid 1px !important;
+}
+
+.tooltip-textiles {
+    height: auto !important;
+    padding: 5px;
+}
+
+.tooltip-boost {
+    height: auto !important;
+    width: 175px;
+    padding: 5px;
+}
+
+div.tooltip:not(.autoHeight) {
+    height: 36px;
+}
+
+div.tooltip {
+    z-index: 500;
+    position: absolute;
+    border: #22b7da solid 2px;
+    color: #ffffff;
+    text-align: left;
+    background-color: #2c2c2c;
+}
+
+div.tooltip > div:not(.ignore) {
+    padding: 4px;
+}
+
+span.tooltip.ut {
+    color: #8a2be2;
+    font-weight: bold;
+}
+
+span.tooltip.st {
+    color: #ff9900;
+    font-weight: bold;
+}
+
+span.tooltip.tiered {
+    color: #ffffff;
+    font-weight: bold;
+}
+
+span.tooltip.feed {
+    color: #fc8642;
+}
+
+span.tooltip.generic.text {
+    color: #b3b3b3;
+}
+
+span.tooltip.famebonus.value {
+    color: #ffff8f;
+}
+/*WAWAWA end*/
 
 .mule:not(.setuptools) {
     padding: 2px;
@@ -164,6 +390,26 @@ div#export div { padding: 0 5px; }
     overflow: hidden;
 }
 
+.famegold {
+    font-size: 18px;
+    margin-right: 2px;
+    margin-left: 5px;
+    /* text-align: center; */
+    cursor: default;
+    overflow: hidden;
+	/* vertical-align : middle; */
+	/* border : solid 1px; */
+}
+
+.imgfamegold {
+	width: 16px; 
+	height: 16px; 
+	/* vertical-align : middle; */
+	background-size: cover;
+	/* background-position: center center; */
+	/* border : solid 1px; */
+}
+
 .button {
     display: inline-block;
     float: right;
@@ -183,7 +429,7 @@ div#export div { padding: 0 5px; }
 
 
 .portrait {
-    float: left;
+    /* float: left; */
     width: 34px;
     height: 34px;
     margin: 0 5px 2px 4px;
@@ -215,6 +461,14 @@ hr {
     text-align: right;
     padding: 0 5px 0 0;
 }
+
+.avg { /*color: #73cce2;*/ }
+.max { color: #f0f0a0; }
+.maxed { color: #fcdf00; }
+.good { color: #90ff90; }
+.good.very { color: #00ff00; }
+.bad { color: #ff9090; }
+.bad.very { color: #ff0000; }
 
 .stat.avg { /*color: #73cce2;*/ }
 .stat.max { color: #f0f0a0; }
