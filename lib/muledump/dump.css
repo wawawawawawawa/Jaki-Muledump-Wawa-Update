@@ -188,12 +188,22 @@ div.tooltip div.bagType {
     margin-top: 5px;
 }
 
-div.ClassType {
+.ClassType {
     /* background: url(ClassicSkins.png) #2c2c2c; */
     overflow: hidden;
     /* width: 82px; */
     /* height: 82px; */
     /* margin-right: 5px; */
+}
+
+.ClassType div {
+    position: absolute;
+    right: 4px;
+    bottom: 1px;
+    color: white;
+    font: bold 15px Arial,sans-serif;
+    text-shadow: -1px 0 3px black, 0 1px 3px black, 1px 0 3px black, 0 -1px 3px black;
+    z-index: 50;
 }
 
 div.WawaType {
@@ -383,7 +393,7 @@ span.tooltip.famebonus.value {
 .name, .error:not(.setuptools), .reload, #counter { font-weight: bold; }
 
 .name {
-    font-size: 16px;
+    font-size: 18px;
     margin: 4px;
     text-align: center;
     cursor: pointer;
@@ -392,11 +402,13 @@ span.tooltip.famebonus.value {
 
 .famegold {
     font-size: 18px;
-    margin-right: 2px;
-    margin-left: 5px;
-    /* text-align: center; */
-    cursor: default;
+    /* margin-right: 2px; */
+    /* margin-left: 5px; */
+    margin: 4px;
+    text-align: left;
+    cursor: pointer;
     overflow: hidden;
+    width: 100%;
 	/* vertical-align : middle; */
 	/* border : solid 1px; */
 }
@@ -408,6 +420,7 @@ span.tooltip.famebonus.value {
 	background-size: cover;
 	/* background-position: center center; */
 	/* border : solid 1px; */
+    cursor: pointer;
 }
 
 .button {
@@ -655,14 +668,32 @@ table.chars {
     float: left;
     padding: 1px 1px 1px 4px;
     font-weight: normal;
-    font-size: 14px;
+    font-size: 1em;
     margin: 2px;
+    /* line-height: 0; */
+    margin: 0 0.1em 0.2em 0.2em;
 }
-.scont .star {
-    font-size: 1.2em;
-    line-height: 0;
-    margin: 0 0.1em 0 0.2em;
+.star {
+    font-size: 1em;
+    /* line-height: 0; */
+    margin: 0 0.1em 0.2em 0.2em;
 }
+
+/* stars */
+/* .scont { */
+    /* background-color: #222; */
+    /* border-radius: 6px; */
+    /* float: left; */
+    /* padding: 1px 1px 1px 4px; */
+    /* font-weight: normal; */
+    /* font-size: 14px; */
+    /* margin: 2px; */
+/* } */
+/* .scont .star { */
+    /* font-size: 1.3em; */
+    /* line-height: 0; */
+    /* margin: 0 0.1em 0 0.2em; */
+/* } */
 
 .warn {
     color: #d70;
