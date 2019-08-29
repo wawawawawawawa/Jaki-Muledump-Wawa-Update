@@ -2,11 +2,14 @@ This is a fork from ![Jaki MD](https://github.com/jakcodex), so I have put his R
 
 The tweaks look like this :
 
-Wawa Option Update:
-![Wawa Option Update](https://i.imgur.com/luVlc1c.png)
+Shiny Wawa Option Update (with Pet Integration!) :
+![Wawa Option Update](https://i.imgur.com/PEyrxOW.png)
 
-Other Updates (pets, account dungeon complete, account pots to max, etc.)
-![New Account Function and Pets](https://i.imgur.com/vlnnus9.png)
+Dungeon Stats on your account :
+![New Dungeon Stats](https://i.imgur.com/WvCCgbx.png)
+
+Gift/Other Stats on your account :
+![New Account Stats](https://i.imgur.com/q5K9HBb.png)
 
 ![Jakcodex/Muledump](https://img.shields.io/badge/jakcodex-muledump-blue.svg?style=flat-square)
 [![Muledump Online](https://img.shields.io/badge/dynamic/json.svg?label=online&colorB=9e43f9&prefix=v&suffix=&query=$.version&uri=https%3A%2F%2Fjakcodex.github.io%2Fmuledump%2Fpackage.json)](https://jakcodex.github.io/muledump/muledump.html)
