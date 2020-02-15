@@ -255,6 +255,10 @@ div.WawaType {
     margin-bottom: 5px;
 }
 
+.mb10 {
+    margin-bottom: 10px;
+}
+
 .mr5 {
     margin-right: 5px;
 }
@@ -267,20 +271,40 @@ div.WawaType {
 	margin-left: 5px;
 }
 
+.ml10 {
+    margin-left: 10px;
+}
+
 .pr5 {
 	padding-right: 5px;
+}
+
+.pr10 {
+	padding-right: 10px;
 }
 
 .pt5 {
 	padding-top: 5px;
 }
 
+.pt10 {
+	padding-top: 10px;
+}
+
 .pb5 {
 	padding-bottom: 5px;
 }
 
+.pb10 {
+	padding-bottom: 10px;
+}
+
 .pl5 {
 	padding-left: 5px;
+}
+
+.pl10 {
+	padding-left: 10px;
 }
 
 .petItem {
