@@ -39,7 +39,7 @@ RunWaitMany(commands) {
 	token := exec.StdOut.ReadAll()
 	Array := StrSplit(token , "`n")
 	RealToken := Array[12]
-    msgbox, % token "`n`n" Array[12]
+    ; msgbox, % token "`n`n" Array[12]
 	IniWrite, %RealToken%, %A_ScriptDir%\quickLaunch.ini, rotmg, clientToken
 	; Loop, Parse, token, % "`n"
     ; MsgBox % "Color number " A_Index " is " A_LoopField
