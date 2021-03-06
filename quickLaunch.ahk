@@ -2,7 +2,7 @@ IniRead, windowname, %A_ScriptDir%\quickLaunch.ini, rotmg, windowname
 IniRead, username, %A_ScriptDir%\quickLaunch.ini, rotmg, username
 IniRead, password, %A_ScriptDir%\quickLaunch.ini, rotmg, password
 IniRead, clientToken, %A_ScriptDir%\quickLaunch.ini, rotmg, clientToken
-if (clientToken = "ERROR")
+if (clientToken = "ERROR" || !clientToken)
 {
 	RunWaitMany("powershell`n$stringAsStream = [System.IO.MemoryStream]::new()`n$writer = [System.IO.StreamWriter]::new($stringAsStream)`n$writer.write(""$(Get-CimInstance -ClassName Win32_BaseBoard | foreach {$_.SerialNumber})$(Get-CimInstance -ClassName Win32_BIOS | foreach {$_.SerialNumber})$(Get-CimInstance -ClassName Win32_OperatingSystem | foreach {$_.SerialNumber})"")`n$writer.Flush()`n$stringAsStream.Position = 0`n""$(Get-FileHash -InputStream $stringAsStream -Algorithm SHA1 | foreach {$_.Hash})"".ToLower()")
 
