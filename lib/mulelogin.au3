@@ -150,6 +150,9 @@ FileClose($search)
 ;ShellExecute('C:\Program Files\Total Commander\Totalcmd.exe', '/S=L:Pswfview e:\temp\rotmg\loader.swf')
 
 ; run one-click login through Exalt
+; Change the path to your MD folder
+FileChangeDir ("C:\Program Files\MuleDump\")
+
 $OCL_loc = @WorkingDir & "\quickLaunch.ahk"
 $OCL_au3 = FileGetShortName($OCL_loc)
 IniWrite(@WorkingDir & "\quickLaunch.ini", "rotmg", "username", $data[5])
