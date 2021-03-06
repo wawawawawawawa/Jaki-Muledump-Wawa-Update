@@ -148,3 +148,10 @@ ShellExecute("https://www.realmofthemadgod.com/")
 ; run one-click login thru totalcmd + swfview
 ; https://www.ghisler.com/
 ;ShellExecute('C:\Program Files\Total Commander\Totalcmd.exe', '/S=L:Pswfview e:\temp\rotmg\loader.swf')
+
+; run one-click login through Exalt
+$OCL_loc = @WorkingDir & "\quickLaunch.ahk"
+$OCL_au3 = FileGetShortName($OCL_loc)
+IniWrite(@WorkingDir & "\quickLaunch.ini", "rotmg", "username", $data[5])
+IniWrite(@WorkingDir & "\quickLaunch.ini", "rotmg", "password", $data[6])
+ShellExecute ($OCL_au3)
