@@ -134,7 +134,7 @@ FileClose($search)
 ;;
 
 ; run one-click login thru the browser
-ShellExecute("https://www.realmofthemadgod.com/")
+; ShellExecute("https://www.realmofthemadgod.com/")
 
 ;;
 ; replace the line above with one of the following if you're using a projector
