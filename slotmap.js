@@ -267,6 +267,8 @@ var itemsSlotTypeMap = {
     katanas: {slotType: 24, sheet: [360, 0]},
     stars: {slotType: 25, sheet: [920, 0]},
     eggs: {slotType: 26, sheet: [840, 40]},
-    wakis: {slotType: 27, sheet: [920, 40]}
+    wakis: {slotType: 27, sheet: [920, 40]},
+    lutes: {slotType: 28, sheet: [960, 40]},
+    maces: {slotType: 29, sheet: [960, 40]}
 };
 window.itemsSlotTypeMap = itemsSlotTypeMap;
