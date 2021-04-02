@@ -1,3 +1,13 @@
+#### EDIT FOR EXALT ####
+You need to use a CORS extension (I used CORS Everywhere in firefox).
+==> CORS extension are usually global, which is not safe. Toggle it ON when you reload in muledump, but toggle it back to OFF afterwards!
+
+For OCL :
+1) You need to change the path in the end of mulelogin.au3 (see below), the default value is C:\Program Files\MuleDump
+FileChangeDir ("C:\Program Files\MuleDump\")
+2) You need to reinstall mulelogin.au3
+#####
+
 This is a fork from ![Jaki MD](https://github.com/jakcodex), so I have put his README below.
 
 The tweaks look like this :
