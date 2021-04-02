@@ -8,7 +8,7 @@ For OCL :
 FileChangeDir ("C:\Program Files\MuleDump\")
 2) You need to reinstall mulelogin.au3
 
-======================================
+=================================
 
 This is a fork from ![Jaki MD](https://github.com/jakcodex), so I have put his README below.
 
