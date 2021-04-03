@@ -7,11 +7,11 @@ For OCL :
 1) You need to change the path in the end of mulelogin.au3 (see below), the default value is C:\Program Files\MuleDump
 FileChangeDir ("C:\Program Files\MuleDump\")
 2) You need to reinstall mulelogin.au3
-3) You need to install ![AutoHotkey](https://www.autohotkey.com/) and get Current Version (NOT V2 Alpha)
+3) You need to install [AutoHotkey](https://www.autohotkey.com/) and get Current Version (NOT V2 Alpha)
 
 =================================
 
-This is a fork from ![Jaki MD](https://github.com/jakcodex), so I have put his README below.
+This is a fork from [Jaki MD](https://github.com/jakcodex), so I have put his README below.
 
 The tweaks look like this :
 
