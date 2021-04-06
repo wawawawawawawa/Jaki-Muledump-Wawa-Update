@@ -1,6 +1,6 @@
 =========== EDIT FOR EXALT ===========
 
-You need to use a CORS extension (I used CORS Everywhere in firefox).
+You need to use a CORS extension (I used [CORS Everywhere](https://addons.mozilla.org/fr/firefox/addon/cors-everywhere/) in firefox, and [CORS Toggle](https://addons.opera.com/fr/extensions/details/cors-toggle/) works in Opera).
 ==> CORS extension are usually global, which is not safe. Toggle it ON when you reload in muledump, but toggle it back to OFF afterwards!
 
 For OCL :
