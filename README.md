@@ -1,9 +1,10 @@
-=========== EDIT FOR EXALT ===========
+====================== EDIT FOR EXALT ======================
 
 For MuleDump :
 
-You need to use a CORS extension (I used [CORS Everywhere](https://addons.mozilla.org/fr/firefox/addon/cors-everywhere/) in firefox, and [CORS Toggle](https://addons.opera.com/fr/extensions/details/cors-toggle/) works in Opera).
-==> CORS extension are usually global, which is not safe. Toggle it ON when you reload in muledump, but toggle it back to OFF afterwards!
+You need to use a CORS extension (I used [CORS Everywhere](https://addons.mozilla.org/fr/firefox/addon/cors-everywhere/) in Firefox, and [CORS Toggle](https://addons.opera.com/fr/extensions/details/cors-toggle/) works in Opera).
+
+CORS extension are usually global, which is not safe. Toggle it ON when you reload in muledump, but toggle it back to OFF afterwards!
 
 For OCL :
 1) You need to change the path in the end of mulelogin.au3 (see below), the default value is C:\Program Files\MuleDump
@@ -20,12 +21,12 @@ Errors :
 - You can remove - from user/pass :)
 - Or you can go to quickLaunch.ini, add the remaining of your password there, and double click quickLaunch.ahk, this will skip muledump part (aka, put your user/pass inside the .ini)
 
-2) Having "Token for different machine" error means I don't have the correct clientToken, to fix
+2) Having "Token for different machine" error means I don't have the correct clientToken somehow, to fix
 - Find your token by other means (fiddle for instance)
 - Put the correct token inside quickLaunch.ini
 - Reload Muledump and click the arrow icon
 
-=================================
+============================================================
 
 This is a fork from [Jaki MD](https://github.com/jakcodex), so I have put his README below.
 
