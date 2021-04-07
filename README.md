@@ -1,5 +1,6 @@
 =========== EDIT FOR EXALT ===========
 
+For MuleDump :
 You need to use a CORS extension (I used [CORS Everywhere](https://addons.mozilla.org/fr/firefox/addon/cors-everywhere/) in firefox, and [CORS Toggle](https://addons.opera.com/fr/extensions/details/cors-toggle/) works in Opera).
 ==> CORS extension are usually global, which is not safe. Toggle it ON when you reload in muledump, but toggle it back to OFF afterwards!
 
@@ -10,6 +11,17 @@ For OCL :
 
 2) You need to reinstall mulelogin.au3
 3) You need to install [AutoHotkey](https://www.autohotkey.com/) and get Current Version (NOT V2 Alpha)
+4) Click on the arrow icon in Muledump to load your account!
+
+Errors :
+Having minus sign ( - ) in user/pass breaks OCL, to fix
+1) You can remove - from user/pass :)
+2) Or you can go to quickLaunch.ini, add the remaining of your password there, and double click quickLaunch.ahk, this will skip muledump part (aka, put your user/pass inside the .ini)
+
+Having "Token for different machine" error means I don't have the correct clientToken, to fix
+1) Find your token by other means (fiddle for instance)
+2) Put the correct token inside quickLaunch.ini
+3) Reload Muledump and click the arrow icon
 
 =================================
 
