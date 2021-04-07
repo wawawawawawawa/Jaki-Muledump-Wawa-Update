@@ -2,7 +2,7 @@
 
 For MuleDump :
 
-You need to use Jaki CORS extension ([Firefox version](https://addons.mozilla.org/en-US/firefox/addon/muledump-cors-adapter/) and [Chrome version](https://chrome.google.com/webstore/detail/jakcodexmuledump-cors-ada/iimhkldbldnmapepklmeeinclchfkddd)
+You need to use Jaki CORS extension ([Firefox version](https://addons.mozilla.org/en-US/firefox/addon/muledump-cors-adapter/) and [Chrome version](https://chrome.google.com/webstore/detail/jakcodexmuledump-cors-ada/iimhkldbldnmapepklmeeinclchfkddd))
 
 For OCL :
 1) You need to change the path in the end of mulelogin.au3 (see below), the default value is C:\Program Files\MuleDump
