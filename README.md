@@ -2,9 +2,7 @@
 
 For MuleDump :
 
-You need to use a CORS extension (I used [CORS Everywhere](https://addons.mozilla.org/fr/firefox/addon/cors-everywhere/) in Firefox, and [CORS Toggle](https://addons.opera.com/fr/extensions/details/cors-toggle/) works in Opera).
-
-CORS extension are usually global, which is not safe. Toggle it ON when you reload in muledump, but toggle it back to OFF afterwards!
+You need to use Jaki CORS extension ([Firefox version](https://addons.mozilla.org/en-US/firefox/addon/muledump-cors-adapter/) and [Chrome version](https://chrome.google.com/webstore/detail/jakcodexmuledump-cors-ada/iimhkldbldnmapepklmeeinclchfkddd)
 
 For OCL :
 1) You need to change the path in the end of mulelogin.au3 (see below), the default value is C:\Program Files\MuleDump
