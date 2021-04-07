@@ -14,14 +14,14 @@ For OCL :
 4) Click on the arrow icon in Muledump to load your account!
 
 Errors :
-Having minus sign ( - ) in user/pass breaks OCL, to fix
-1) You can remove - from user/pass :)
-2) Or you can go to quickLaunch.ini, add the remaining of your password there, and double click quickLaunch.ahk, this will skip muledump part (aka, put your user/pass inside the .ini)
+1) Having minus sign ( - ) in user/pass breaks OCL, to fix
+- You can remove - from user/pass :)
+- Or you can go to quickLaunch.ini, add the remaining of your password there, and double click quickLaunch.ahk, this will skip muledump part (aka, put your user/pass inside the .ini)
 
-Having "Token for different machine" error means I don't have the correct clientToken, to fix
-1) Find your token by other means (fiddle for instance)
-2) Put the correct token inside quickLaunch.ini
-3) Reload Muledump and click the arrow icon
+2) Having "Token for different machine" error means I don't have the correct clientToken, to fix
+- Find your token by other means (fiddle for instance)
+- Put the correct token inside quickLaunch.ini
+- Reload Muledump and click the arrow icon
 
 =================================
 
