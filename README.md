@@ -26,7 +26,7 @@ Errors :
 - Put the correct token inside quickLaunch.ini
 - Reload Muledump and click the arrow icon
 
-============================================================
+============================================
 
 This is a fork from [Jaki MD](https://github.com/jakcodex), so I have put his README below.
 
