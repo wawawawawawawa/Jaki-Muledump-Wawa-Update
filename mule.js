@@ -125,7 +125,7 @@ var DungeonStatsHtml = [];
             r += j;
         }
         var $s = $('<span>').addClass('scont');
-        $('<span>').text(r).appendTo($s);
+        //$('<span>').text(r).appendTo($s);
         var $st = $('<span>').text('\u2605').addClass('star');
         $st.css('color', STARCOLOR[Math.floor(r / NUMCLASSES)] || 'lime');
         $st.appendTo($s);
@@ -133,8 +133,8 @@ var DungeonStatsHtml = [];
 		var $AccGold = $('<scont>').addClass('famegold').html(NumberFormat(d.Account.Credits, ',') + '  ');
 		$AccFame.append('<img class="imgfamegold" src="lib/Fame.png"></img>');
 		$AccGold.append('<img class="imgfamegold" src="lib/Gold.png"></img>');
-		$AccFame.appendTo($s);
-		$AccGold.appendTo($s);
+		//$AccFame.appendTo($s);
+		//$AccGold.appendTo($s);
 		
         $s.appendTo($t);
         setuptools.app.ga('send', 'event', {
