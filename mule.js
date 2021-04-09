@@ -128,7 +128,7 @@ var DungeonStatsHtml = [];
         //$('<span>').text(r).appendTo($s);
         var $st = $('<span>').text('\u2605').addClass('star');
         $st.css('color', STARCOLOR[Math.floor(r / NUMCLASSES)] || 'lime');
-        $st.appendTo($s);
+        //$st.appendTo($s);
 		var $AccFame = $('<scont>').addClass('famegold').html(NumberFormat(d.Account.Stats.Fame, ',') + '  ');
 		var $AccGold = $('<scont>').addClass('famegold').html(NumberFormat(d.Account.Credits, ',') + '  ');
 		$AccFame.append('<img class="imgfamegold" src="lib/Fame.png"></img>');
