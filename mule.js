@@ -2029,140 +2029,142 @@ var DungeonStatsHtml = [];
 			
 			///window data
 			var MaxItems = Math.floor((window.innerWidth - 76) / 50);
-
-			for (var tg = 0; tg < Totitems.length; tg++) {
-				if (window.items[Totitems[tg]] === undefined) {
-					// console.log(window.items[Totitems[tg]], Totitems[tg]);
-				}
-				else 
-				{
-					// console.log(window.items[Totitems[tg]], Totitems[tg]);
-					/// UT
-					if (window.items[Totitems[tg]][9] === 1 && window.items[Totitems[tg]][1] !== 10) {
-						if (window.items[Totitems[tg]][7] === 6) {
-							// console.log(window.items[Totitems[tg]], "white");
-							if (WhiteList[Totitems[tg]]) {
-								WhiteList[Totitems[tg]] += 1;
+			if (Totitems !== undefined)
+			{
+				for (var tg = 0; tg < Totitems.length; tg++) {
+					if (window.items[Totitems[tg]] === undefined) {
+						// console.log(window.items[Totitems[tg]], Totitems[tg]);
+					}
+					else 
+					{
+						// console.log(window.items[Totitems[tg]], Totitems[tg]);
+						/// UT
+						if (window.items[Totitems[tg]][9] === 1 && window.items[Totitems[tg]][1] !== 10) {
+							if (window.items[Totitems[tg]][7] === 6) {
+								// console.log(window.items[Totitems[tg]], "white");
+								if (WhiteList[Totitems[tg]]) {
+									WhiteList[Totitems[tg]] += 1;
+								}
+								else {
+									WhiteList[Totitems[tg]] = 1;
+									WhiteList['Count'] += 1;
+								}
 							}
 							else {
-								WhiteList[Totitems[tg]] = 1;
-								WhiteList['Count'] += 1;
+								// console.log(window.items[Totitems[tg]], "UT");
+								if (UTList[Totitems[tg]]) {
+									UTList[Totitems[tg]] += 1;
+								}
+								else {
+									UTList[Totitems[tg]] = 1;
+									UTList['Count'] += 1;
+								}
 							}
 						}
-						else {
-							// console.log(window.items[Totitems[tg]], "UT");
-							if (UTList[Totitems[tg]]) {
-								UTList[Totitems[tg]] += 1;
+						/// ST
+						if (window.items[Totitems[tg]][9] === 2) {
+							if (STList[Totitems[tg]]) {
+								STList[Totitems[tg]] += 1;
 							}
 							else {
-								UTList[Totitems[tg]] = 1;
-								UTList['Count'] += 1;
+								STList[Totitems[tg]] = 1;
+								STList['Count'] += 1;
+							}
+							// console.log(window.items[Totitems[tg]], "ST");
+						}
+						// if (window.items[Totitems[tg]][1] === 10) {
+							// console.log(window.items[Totitems[tg]], "Event");
+						// }
+						/// buffs
+						if (window.items[Totitems[tg]][10] === 42021 || window.items[Totitems[tg]][10] === 42019) {
+							if (BuffList[Totitems[tg]]) {
+								BuffList[Totitems[tg]] += 1;
+							}
+							else {
+								BuffList[Totitems[tg]] = 1;
+								BuffList['Count'] += 1;
 							}
 						}
-					}
-					/// ST
-					if (window.items[Totitems[tg]][9] === 2) {
-						if (STList[Totitems[tg]]) {
-							STList[Totitems[tg]] += 1;
+						
+						/// pots on acc
+						if (window.items[Totitems[tg]][10] === 42010 || window.items[Totitems[tg]][10] === 42011 || window.items[Totitems[tg]][10] === 42012) {
+							if (PotionList[Totitems[tg]]) {
+								PotionList[Totitems[tg]] += 1;
+							}
+							else {
+								PotionList[Totitems[tg]] = 1;
+								PotionList['Count'] += 1;
+							}
 						}
-						else {
-							STList[Totitems[tg]] = 1;
-							STList['Count'] += 1;
+						
+						/// marks
+						if (window.items[Totitems[tg]][10] === 42028 || window.items[Totitems[tg]][10] === 42022) {
+							if (MarkList[Totitems[tg]]) {
+								MarkList[Totitems[tg]] += 1;
+							}
+							else {
+								MarkList[Totitems[tg]] = 1;
+								MarkList['Count'] += 1;
+							}
 						}
-						// console.log(window.items[Totitems[tg]], "ST");
-					}
-					// if (window.items[Totitems[tg]][1] === 10) {
-						// console.log(window.items[Totitems[tg]], "Event");
-					// }
-					/// buffs
-					if (window.items[Totitems[tg]][10] === 42021 || window.items[Totitems[tg]][10] === 42019) {
-						if (BuffList[Totitems[tg]]) {
-							BuffList[Totitems[tg]] += 1;
+						/// pet food
+						if (window.items[Totitems[tg]][10] === 42026) {
+							if (PetFoodList[Totitems[tg]]) {
+								PetFoodList[Totitems[tg]] += 1;
+							}
+							else {
+								PetFoodList[Totitems[tg]] = 1;
+								PetFoodList['Count'] += 1;
+							}
 						}
-						else {
-							BuffList[Totitems[tg]] = 1;
-							BuffList['Count'] += 1;
+						/// keys
+						var lastword = window.items[Totitems[tg]][0].split(" ");
+						var itemtype = lastword[lastword.length - 1];
+						var itemtype2 = lastword[lastword.length - 2];
+						// if(itemtype == "Key") {
+						if(window.items[Totitems[tg]][10] === 42013 || window.items[Totitems[tg]][10] === 42014) {
+							if (KeyList[Totitems[tg]]) {
+								KeyList[Totitems[tg]] += 1;
+							}
+							else {
+								KeyList[Totitems[tg]] = 1;
+								KeyList['Count'] += 1;
+							}
 						}
-					}
-					
-					/// pots on acc
-					if (window.items[Totitems[tg]][10] === 42010 || window.items[Totitems[tg]][10] === 42011 || window.items[Totitems[tg]][10] === 42012) {
-						if (PotionList[Totitems[tg]]) {
-							PotionList[Totitems[tg]] += 1;
+						
+						/// cloth
+						else if(itemtype == "Cloth" || itemtype2 == "Cloth" && itemtype != "Armor") {
+							if (ClothList[Totitems[tg]]) {
+								ClothList[Totitems[tg]] += 1;
+							}
+							else {
+								ClothList[Totitems[tg]] = 1;
+								ClothList['Count'] += 1;
+							}
 						}
-						else {
-							PotionList[Totitems[tg]] = 1;
-							PotionList['Count'] += 1;
+						
+						/// dye
+						else if(itemtype == "Dye" || itemtype2 == "Dye" && itemtype != "Armor") {
+						// else if(window.items[Totitems[tg]][10] === 42015) {
+							if (DyeList[Totitems[tg]]) {
+								DyeList[Totitems[tg]] += 1;
+							}
+							else {
+								DyeList[Totitems[tg]] = 1;
+								DyeList['Count'] += 1;
+							}
 						}
-					}
-					
-					/// marks
-					if (window.items[Totitems[tg]][10] === 42028 || window.items[Totitems[tg]][10] === 42022) {
-						if (MarkList[Totitems[tg]]) {
-							MarkList[Totitems[tg]] += 1;
-						}
-						else {
-							MarkList[Totitems[tg]] = 1;
-							MarkList['Count'] += 1;
-						}
-					}
-					/// pet food
-					if (window.items[Totitems[tg]][10] === 42026) {
-						if (PetFoodList[Totitems[tg]]) {
-							PetFoodList[Totitems[tg]] += 1;
-						}
-						else {
-							PetFoodList[Totitems[tg]] = 1;
-							PetFoodList['Count'] += 1;
-						}
-					}
-					/// keys
-					var lastword = window.items[Totitems[tg]][0].split(" ");
-					var itemtype = lastword[lastword.length - 1];
-					var itemtype2 = lastword[lastword.length - 2];
-					// if(itemtype == "Key") {
-					if(window.items[Totitems[tg]][10] === 42013 || window.items[Totitems[tg]][10] === 42014) {
-						if (KeyList[Totitems[tg]]) {
-							KeyList[Totitems[tg]] += 1;
-						}
-						else {
-							KeyList[Totitems[tg]] = 1;
-							KeyList['Count'] += 1;
-						}
-					}
-					
-					/// cloth
-					else if(itemtype == "Cloth" || itemtype2 == "Cloth" && itemtype != "Armor") {
-						if (ClothList[Totitems[tg]]) {
-							ClothList[Totitems[tg]] += 1;
-						}
-						else {
-							ClothList[Totitems[tg]] = 1;
-							ClothList['Count'] += 1;
-						}
-					}
-					
-					/// dye
-					else if(itemtype == "Dye" || itemtype2 == "Dye" && itemtype != "Armor") {
-					// else if(window.items[Totitems[tg]][10] === 42015) {
-						if (DyeList[Totitems[tg]]) {
-							DyeList[Totitems[tg]] += 1;
-						}
-						else {
-							DyeList[Totitems[tg]] = 1;
-							DyeList['Count'] += 1;
-						}
-					}
-					
-					/// skin
-					// else if(itemtype == "Skin" || itemtype2 == "Skin" && itemtype == "(SB)") {
-					else if( window.items[Totitems[tg]][10] === 42016 || window.items[Totitems[tg]][10] === 42027) {
-						if (SkinList[Totitems[tg]]) {
-							SkinList[Totitems[tg]] += 1;
-						}
-						else {
-							SkinList[Totitems[tg]] = 1;
-							SkinList['Count'] += 1;
+						
+						/// skin
+						// else if(itemtype == "Skin" || itemtype2 == "Skin" && itemtype == "(SB)") {
+						else if( window.items[Totitems[tg]][10] === 42016 || window.items[Totitems[tg]][10] === 42027) {
+							if (SkinList[Totitems[tg]]) {
+								SkinList[Totitems[tg]] += 1;
+							}
+							else {
+								SkinList[Totitems[tg]] = 1;
+								SkinList['Count'] += 1;
+							}
 						}
 					}
 				}
