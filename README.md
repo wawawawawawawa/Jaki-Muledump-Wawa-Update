@@ -7,6 +7,10 @@ For MuleDump :
 
 ![Download MD](https://i.imgur.com/h5Kru0D.png)
 
+Also, this means that you need to re-download like that when I change stuff, as no autoupdate, so it won't tell you to download it again (just re-download if you have issue, I might have fixed it)
+
+When you do re-download, keep your quickLaunch.ini file, that way you won't need to re-do the clientToken part if you use OCL
+
 For OCL :
 1) You need to install [AutoIt](https://www.autoitscript.com/cgi-bin/getfile.pl?autoit3/autoit-v3-setup.exe) and [AutoHotkey](https://www.autohotkey.com/) and get Current Version (NOT V2 Alpha)    
 2) You need to change the path in the end of mulelogin.au3 (see below), the default value is C:\Program Files\MuleDump (you can edit it with notepad)
