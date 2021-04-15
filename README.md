@@ -10,8 +10,7 @@ For OCL :
 
 ![mulelogin.au3](https://i.imgur.com/tGxL19O.png)
 
-In my case, you need to change
-`FileChangeDir ("C:\Program Files\MuleDump\")` into `FileChangeDir ("D:\Desktop\Jaki-Muledump-Wawa-Update-master\")`
+In my case, you need to change `FileChangeDir ("C:\Program Files\MuleDump\")` into `FileChangeDir ("D:\Desktop\Jaki-Muledump-Wawa-Update-master\")`
 
 3) You need to reinstall mulelogin.au3
 4) Go to muledump, then open quickLaunch.ahk, this will show an empty command prompt (it writes clientToken in quickLaunch.ini, you can verify the information is here)
@@ -36,6 +35,7 @@ Errors :
 - Somehow some faulty accounts (that needs TOS or whatnot) make it so that I can't get correct number of chest, reload them with the NO_INFO file (perhaps need manual load as well to accept TOS, not sure), then you can put back the regular mule.js with the info on the account
 
 Here the difference between the 2 files :
+
 Regular mule.js :
 ![mule.js](https://i.imgur.com/hbCOGsC.png)
 mule_NO_INFO.js :
