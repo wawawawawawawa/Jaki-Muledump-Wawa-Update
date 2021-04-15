@@ -5,14 +5,16 @@ For MuleDump :
 You need to use Jaki CORS extension ([Firefox version](https://addons.mozilla.org/en-US/firefox/addon/muledump-cors-adapter/) and [Chrome version](https://chrome.google.com/webstore/detail/jakcodexmuledump-cors-ada/iimhkldbldnmapepklmeeinclchfkddd))
 
 For OCL :
-1) You need to change the path in the end of mulelogin.au3 (see below), the default value is C:\Program Files\MuleDump
+1) You need to install [AutoIt](https://www.autoitscript.com/cgi-bin/getfile.pl?autoit3/autoit-v3-setup.exe) and [AutoHotkey](https://www.autohotkey.com/) and get Current Version (NOT V2 Alpha)    
+2) You need to change the path in the end of mulelogin.au3 (see below), the default value is C:\Program Files\MuleDump (you can edit it with notepad)
 
 `FileChangeDir ("C:\Program Files\MuleDump\")`
 ![mulelogin.au3](https://i.imgur.com/tGxL19O.png)
 
-2) You need to reinstall mulelogin.au3
-3) You need to install [AutoHotkey](https://www.autohotkey.com/) and get Current Version (NOT V2 Alpha)
-4) Click on the arrow icon in Muledump to load your account!
+3) You need to reinstall mulelogin.au3
+4) Go to muledump, then open quickLaunch.ahk, this will show an empty command prompt (it writes clientToken in quickLaunch.ini, you can verify the information is here)
+5) Close the command prompt, you will get an error, it's fine (there's the clientToken, but not user/pass in the .ini yet)
+6) Click on the arrow icon in Muledump to load your account! (now MD will write user/pass in the .ini, and since clientToken is there as well, everything is set!)
 
 Errors :
 1) Having minus sign ( - ) in user/pass breaks OCL, to fix
@@ -23,6 +25,19 @@ Errors :
 - Find your token by other means (fiddle for instance)
 - Put the correct token inside quickLaunch.ini
 - Reload Muledump and click the arrow icon
+
+3) Some account are not loading! It shows undefined (or wrong) chest number in the account name, to fix
+- Go to muledump/lib/muledump/
+- There is a file called mule.js, and another file called mule_NO_INFO.js
+- Replace the contents of mule.js with the one from mule_NO_INFO.js (you can also delete mule.js and rename mule_NO_INFO.js into mule.js :p)
+- Refresh muledump
+- Somehow some faulty accounts (that needs TOS or whatnot) make it so that I can't get correct number of chest, reload them with the NO_INFO file (perhaps need manual load as well to accept TOS, not sure), then you can put back the regular mule.js with the info on the account
+
+Here the difference between the 2 files :
+Regular mule.js :
+![mule.js](https://i.imgur.com/hbCOGsC.png)
+mule_NO_INFO.js :
+![mule.js](https://i.imgur.com/tyN3eKS.png)
 
 =======================================================
 
