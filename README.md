@@ -20,7 +20,7 @@ For OCL :
 In my case, I need to change `FileChangeDir ("C:\Program Files\MuleDump\")` into `FileChangeDir ("D:\Desktop\Jaki-Muledump-Wawa-Update-master\")`
 
 3) You need to reinstall mulelogin.au3
-4) Go to muledump, then open quickLaunch.ahk, this will show an empty command prompt (it writes clientToken in quickLaunch.ini, you can verify the information is here)
+4) Go to muledump main folder, then open quickLaunch.ahk, this will show an empty command prompt (it writes clientToken in quickLaunch.ini, you can verify the information is here)
 5) Close the command prompt, you will get an error, it's fine (there's the clientToken, but not user/pass in the .ini yet)
 6) Click on the arrow icon in Muledump to load your account! (now MD will write user/pass in the .ini, and since clientToken is there as well, everything is set!)
 
