@@ -11,9 +11,8 @@ For OCL :
 ![mulelogin.au3](https://i.imgur.com/tGxL19O.png)
 
 In my case, you need to change
-`FileChangeDir ("C:\Program Files\MuleDump\")`
-into
-`FileChangeDir ("D:\Desktop\Jaki-Muledump-Wawa-Update-master\")`
+`FileChangeDir ("C:\Program Files\MuleDump\")` into `FileChangeDir ("D:\Desktop\Jaki-Muledump-Wawa-Update-master\")`
+
 3) You need to reinstall mulelogin.au3
 4) Go to muledump, then open quickLaunch.ahk, this will show an empty command prompt (it writes clientToken in quickLaunch.ini, you can verify the information is here)
 5) Close the command prompt, you will get an error, it's fine (there's the clientToken, but not user/pass in the .ini yet)
