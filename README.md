@@ -2,7 +2,7 @@
 
 For MuleDump :
 
-1) You need to use Jaki CORS extension ([Firefox version](https://addons.mozilla.org/en-US/firefox/addon/muledump-cors-adapter/) and [Chrome version](https://chrome.google.com/webstore/detail/jakcodexmuledump-cors-ada/iimhkldbldnmapepklmeeinclchfkddd)) or any CORS extension
+1) You need to use Jaki CORS extension ([Firefox version](https://addons.mozilla.org/en-US/firefox/addon/muledump-cors-adapter/) and [Chrome version](https://chrome.google.com/webstore/detail/jakcodexmuledump-cors-ada/iimhkldbldnmapepklmeeinclchfkddd)) or any other CORS extension
 2) Download my muledump version (but be careful, I don't have autoupdates, so don't download "latest release" from 2019 lol, just Code -> Download ZIP like in the pic below (aka, don't do red, but do green part)
 
 ![Download MD](https://i.imgur.com/h5Kru0D.png)
