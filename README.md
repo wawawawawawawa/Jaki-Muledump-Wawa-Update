@@ -13,11 +13,11 @@ When you do re-download, keep your quickLaunch.ini file, that way you won't need
 
 For OCL :
 1) You need to install [AutoIt](https://www.autoitscript.com/cgi-bin/getfile.pl?autoit3/autoit-v3-setup.exe) and [AutoHotkey](https://www.autohotkey.com/) and get Current Version (NOT V2 Alpha)    
-2) You need to change the path in the end of mulelogin.au3 (see below), the default value is C:\Program Files\MuleDump (you can edit it with notepad)
+2) You need to change the path in the end of mulelogin.au3 (see below), the default value is "Path\Jaki-Muledump-Wawa-Update-master\" (you can edit it with notepad)
 
-![mulelogin.au3](https://i.imgur.com/tGxL19O.png)
+![mulelogin.au3](https://i.imgur.com/rV5Hakl.png)
 
-In my case, I need to change `FileChangeDir ("C:\Program Files\MuleDump\")` into `FileChangeDir ("D:\Desktop\Jaki-Muledump-Wawa-Update-master\")`
+In my case, I need to change `$muledumpPath = "Path\Jaki-Muledump-Wawa-Update-master\"` into `$muledumpPath = "D:\Desktop\Jaki-Muledump-Wawa-Update-master\"`
 
 3) You need to reinstall mulelogin.au3
 4) Go to muledump main folder, then open quickLaunch.ahk, this will show an empty command prompt (it writes clientToken in quickLaunch.ini, you can verify the information is here)
@@ -30,20 +30,6 @@ Errors :
 - Find your token by other means (fiddle for instance)
 - Put the correct token inside quickLaunch.ini
 - Reload Muledump and click the arrow icon
-
-2) Some account are not loading! It shows undefined (or wrong) chest number in the account name, to fix
-- Go to muledump/lib/muledump/
-- There is a file called mule.js, and another file called mule_NO_INFO.js
-- Replace the contents of mule.js with the one from mule_NO_INFO.js (you can also delete mule.js and rename mule_NO_INFO.js into mule.js :p)
-- Refresh muledump
-- Somehow some faulty accounts (that needs TOS or whatnot) make it so that I can't get correct number of chest, reload them with the NO_INFO file (perhaps need manual load as well to accept TOS, not sure), then you can put back the regular mule.js with the info on the account
-
-Here the difference between the 2 files :
-
-Regular mule.js :
-![mule.js](https://i.imgur.com/hbCOGsC.png)
-mule_NO_INFO.js :
-![mule.js](https://i.imgur.com/tyN3eKS.png)
 
 =======================================================
 
