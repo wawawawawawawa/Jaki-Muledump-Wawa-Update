@@ -101,8 +101,9 @@ EndFunc
 
 If $CmdLine[0] = 0 Then _install()
 
+$separator = "_dont_you_dare_use_this_separator_"
 $data = StringReplace($CmdLine[1],"muledump:","")
-$data = StringSplit($data,"-")
+$data = StringSplit($data,$separator, 1)
 $email = $data[1]
 $password = $data[2]
 
