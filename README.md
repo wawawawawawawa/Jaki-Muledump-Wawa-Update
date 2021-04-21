@@ -19,17 +19,20 @@ For OCL :
 
 In my case, I need to change `$muledumpPath = "Path\Jaki-Muledump-Wawa-Update-master\"` into `$muledumpPath = "D:\Desktop\Jaki-Muledump-Wawa-Update-master\"`
 
-3) You need to reinstall mulelogin.au3
-4) Go to muledump main folder, then open quickLaunch.ahk, this will show an empty command prompt (it writes clientToken in quickLaunch.ini, you can verify the information is here)
-5) Close the command prompt, you will get an error, it's fine (there's the clientToken, but not user/pass in the .ini yet)
-6) Click on the arrow icon in Muledump to load your account! (now MD will write user/pass in the .ini, and since clientToken is there as well, everything is set!)
+3) You need to reinstall mulelogin.au3 (double click on it and select "Try Again")
+4) You need to enable One Click Login in Muledump (Go to Setup -> Settings -> Enable One Click Login : Yes)
+5) Click the arrow icon in Muledump, it will show an empty command prompt.
+6) Wait a bit, then close it. This step is to get your clientToken
+7) After closing it, the game will launch
 
-Errors :
-
-1) Having "Token for different machine" error means I don't have the correct clientToken somehow, to fix
-- Find your token by other means (fiddle for instance)
-- Put the correct token inside quickLaunch.ini
-- Reload Muledump and click the arrow icon
+If there is some kind of error :
+1) Look in muledump folder, open a file called quickLaunch.ini (not the .ahk :p)
+2) If clientToken is empty :
+- Double click on quickLaunch.ahk, wait there is a command prompt, then close it. 
+- You get some error message, it's all good. Now go look inside the .ini file
+- If it has clientToken, you can just use the arrow in muledump, otherwise, write your clientToken using fiddler
+3) If user/pass is empty, it means muledump didn't give info to .au3
+4) If all info are correct, it means the .ahk is having issues
 
 =======================================================
 
