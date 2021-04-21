@@ -25,16 +25,13 @@ In my case, I need to change `FileChangeDir ("C:\Program Files\MuleDump\")` into
 6) Click on the arrow icon in Muledump to load your account! (now MD will write user/pass in the .ini, and since clientToken is there as well, everything is set!)
 
 Errors :
-1) Having minus sign ( - ) in user/pass breaks OCL, to fix
-- You can remove - from user/pass :)
-- Or you can go to quickLaunch.ini, add the remaining of your password there, and double click quickLaunch.ahk, this will skip muledump part (aka, put your user/pass inside the .ini)
 
-2) Having "Token for different machine" error means I don't have the correct clientToken somehow, to fix
+1) Having "Token for different machine" error means I don't have the correct clientToken somehow, to fix
 - Find your token by other means (fiddle for instance)
 - Put the correct token inside quickLaunch.ini
 - Reload Muledump and click the arrow icon
 
-3) Some account are not loading! It shows undefined (or wrong) chest number in the account name, to fix
+2) Some account are not loading! It shows undefined (or wrong) chest number in the account name, to fix
 - Go to muledump/lib/muledump/
 - There is a file called mule.js, and another file called mule_NO_INFO.js
 - Replace the contents of mule.js with the one from mule_NO_INFO.js (you can also delete mule.js and rename mule_NO_INFO.js into mule.js :p)
