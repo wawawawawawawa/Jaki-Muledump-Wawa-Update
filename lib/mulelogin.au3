@@ -10,6 +10,17 @@ Global $string, $password, $email, $data, $path, $search, $file, $root
 $root = "HKEY_CLASSES_ROOT\muledump"
 $title = "Muledump One Click Login Installer"
 $adminRightsError = "Error - Requires Admin Privileges" & @CRLF & @CRLF & "Edit mulelogin.au3 in a text editor to enable admin rights at the top" & @CRLF & @CRLF & "For more help see:" & @CRLF & "https://github.com/jakcodex/muledump/wiki/One-Click-Login"
+$pathError = "Error - Requires Correct Path" & @CRLF & @CRLF & "Edit mulelogin.au3 in a text editor and add a correct muledump path" & @CRLF & @CRLF & "For more help see:" & @CRLF & "https://github.com/wawawawawawawa/Jaki-Muledump-Wawa-Update"
+
+;;;;;;;;;; CHANGE THE PATH TO MULEDUMP HERE ;;;;;;;;;
+;;;; example path : "C:\Desktop\Jaki-Muledump-Wawa-Update-master\"
+$muledumpPath = "Path\Jaki-Muledump-Wawa-Update-master\"
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+
+If $muledumpPath == "Path\Jaki-Muledump-Wawa-Update-master\" Then
+   MsgBox(16,$title,$pathError)
+   Exit
+EndIf
 
 Func _write()
 	RegWrite($root,"","REG_SZ","URL: muledump Protocol")
@@ -152,7 +163,7 @@ FileClose($search)
 
 ; run one-click login through Exalt
 ; Change the path to your MD folder
-FileChangeDir ("C:\Program Files\MuleDump\")
+FileChangeDir ($muledumpPath)
 
 $OCL_loc = @WorkingDir & "\quickLaunch.ahk"
 $OCL_au3 = FileGetShortName($OCL_loc)
