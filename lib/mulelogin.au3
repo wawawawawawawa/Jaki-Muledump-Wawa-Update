@@ -29,7 +29,7 @@ Func _write()
 	RegWrite($root & "\shell\open")
 	RegWrite($root & "\shell\open\command","","REG_SZ", @AutoItExe & ' "' & @ScriptFullPath & '" %1')
 	If RegRead("HKEY_CLASSES_ROOT\muledump","") Then
-		MsgBox(64,$title,"One Click Login: installed" & @CRLF & @CRLF & "You should open mulelogin.au3 in a text editor and disable:" & @CRLF & "#RequireAdmin")
+		MsgBox(64,$title,"One Click Login: installed" & @CRLF & @CRLF & "Optional : You can now open mulelogin.au3 in a text editor and disable:" & @CRLF & "#RequireAdmin")
 	Else
 		MsgBox(16,$title,$adminRightsError)
 	EndIf
