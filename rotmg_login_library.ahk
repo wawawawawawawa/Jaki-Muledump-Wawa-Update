@@ -30,17 +30,13 @@ urlEncode(string)
 
 
 login(username, password, clientToken) {
+    If (InStr(username, "steamworks:") == 1) {
+        pwKey := "secret"
+    } Else {
+        pwKey := "password"
+    }
     verify_url := "https://www.realmofthemadgod.com/account/verify"
-    FoundPos := InStr(username, "steamworks:")
-    if (FoundPos != 0)
-    {
-        NewStr := SubStr(username, 12)
-        verify_data := "guid=steamworks:" urlEncode(NewStr) "&steamid=" urlEncode(NewStr) "&secret=" urlEncode(password) "&clientToken=" clientToken
-    }
-    else
-    {
-        verify_data := "guid=" urlEncode(username) "&password=" urlEncode(password) "&clientToken=" clientToken
-    }
+    verify_data := "guid=" urlEncode(username) "&" pwKey "=" urlEncode(password) "&clientToken=" clientToken
     verify_resp := POST(verify_url, verify_data)
 
     RegExMatch(verify_resp, "<AccessToken>(.+)</AccessToken>", accessToken)
