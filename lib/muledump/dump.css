@@ -527,6 +527,13 @@ hr {
     overflow: hidden;
 }
 
+.itemsc2 {
+    width: 352px;
+    margin: 2px;
+    padding: 0;
+    overflow: hidden;
+}
+
 .item {
     position: relative;
     width: 40px;
