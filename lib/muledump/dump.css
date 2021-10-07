@@ -530,6 +530,8 @@ hr {
 .itemsc2 {
     width: 352px;
     margin: 2px;
+    margin-right: 30px;
+    margin-left: 10px;
     padding: 0;
     overflow: hidden;
 }
